@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PresseHelden · Visual- und Motion-Lab</title>
+  <link rel="preload" href="assets/fonts/geist-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="ph.css" />
+  <link rel="stylesheet" href="doc.css" />
+</head>
+<body class="ph-page">
+
+  <header class="doc-top">
+    <div class="doc-top__bar">
+      <img src="assets/logo/pressehelden-logo-quer.webp" alt="PresseHelden" />
+      <nav aria-label="Dokumentation">
+        <a href="index.html">Übersicht</a>
+        <a href="components.html">Komponenten</a>
+        <a href="visuals.html" aria-current="page">Visuals &amp; Motion</a>
+        <a href="in-action.html">In Action</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="doc-hero" style="padding-inline: var(--shell-inset)">
+      <p class="ph-eyebrow">Visual- und Motion-Lab</p>
+      <h1 class="ph-display" style="margin-top:16px"><mark>Ergebnisse zeigen,</mark> <span class="ph-display__rest">nicht behaupten.</span></h1>
+      <p>Hybrid-System: die 9 Original-Lotties laufen per <code>lottie-web</code>, sieben befüllbare <code>.v-*</code>-Bausteine ersetzen sie, wenn eigene Kunden, Medien, Keywords oder Zahlen gebraucht werden. Alles im 40-ms-Raster, alles mit <code>prefers-reduced-motion</code>.</p>
+      <div class="doc-meta"><span>40 ms · 25 fps</span><span>9 Lotties</span><span>7 Visuals</span><span>9 Easings</span><span>Reduced Motion: Endzustand</span></div>
+    </div>
+
+    <nav class="doc-toc" aria-label="Inhalt" style="padding-inline: var(--shell-inset)">
+      <a href="#easing">Easings</a><a href="#shelf">Hero-Regal</a><a href="#fillable">Befüllbare Visuals</a><a href="#stage">Komposition</a><a href="#lotties">Original-Lotties</a><a href="#loops">Marquee &amp; Spalten</a>
+    </nav>
+
+    <!-- ===================== EASING ===================== -->
+    <div class="doc-label" id="easing"><h2>Easings &amp; Dauern</h2><p>1200 ms Demo · Werte aus den Lotties und dem Hero-Skript</p></div>
+    <section class="ph-shell ph-shell--paper ph-shell--tight">
+      <div class="ph-container">
+        <div class="doc-ease" id="ease-demo">
+          <div class="doc-ease__row"><code>--e-enter</code><div class="doc-ease__lane" style="--ease: var(--e-enter)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-exit</code><div class="doc-ease__lane" style="--ease: var(--e-exit)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-shelf</code><div class="doc-ease__lane" style="--ease: var(--e-shelf)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-pop</code><div class="doc-ease__lane" style="--ease: var(--e-pop)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-fade</code><div class="doc-ease__lane" style="--ease: var(--e-fade)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-draw</code><div class="doc-ease__lane" style="--ease: var(--e-draw)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-grow</code><div class="doc-ease__lane" style="--ease: var(--e-grow)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-to-active</code><div class="doc-ease__lane" style="--ease: var(--e-to-active)"><i></i></div></div>
+          <div class="doc-ease__row"><code>--e-to-side</code><div class="doc-ease__lane" style="--ease: var(--e-to-side)"><i></i></div></div>
+        </div>
+        <p style="margin-top:20px"><button class="doc-btn" type="button" onclick="document.getElementById('ease-demo').classList.toggle('is-run')">Abspielen / zurück</button></p>
+        <div class="doc-grid doc-grid--3" style="margin-top:24px">
+          <div class="doc-tile doc-tile--grey"><h3>Dauern</h3><p><code>120</code> instant · <code>240</code> fast · <code>400</code> base · <code>600</code> pop · <code>640</code> reveal · <code>800</code> shelf · <code>1200</code> draw · <code>1600</code> count</p></div>
+          <div class="doc-tile doc-tile--grey"><h3>Versatz</h3><p><code>120 ms</code> Listen · <code>280 ms</code> Punkte in Karten (7 Frames) · <code>300 ms</code> Paare (Elementor-Original)</p></div>
+          <div class="doc-tile doc-tile--grey"><h3>Takte</h3><p>Regal 4000 · Testimonials 5000 · Aussagen 2500 (erst 1500) · Glas-Sequenz 2000 · Schritte Halt 1500 / 4000 · Marquee 30 px/s · Spalten 30 s</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SHELF ===================== -->
+    <div class="doc-label" id="shelf"><h2>Hero-Regal <code>.v-shelf</code></h2><p>800 ms <code>--e-shelf</code> · Karten poppen +600 ms · Autoplay 4 s · Pfeile, Klickzonen, ←/→</p></div>
+    <section class="ph-shell ph-shell--wash-up">
+      <div class="ph-container ph-container--wide">
+        <div class="v-shelf" data-shelf data-autoplay="4000" tabindex="0" role="region" aria-roledescription="Karussell" aria-label="Veröffentlichungen unserer Kunden">
+          <div class="v-shelf__stage">
+
+            <div class="v-shelf__slide" aria-label="WELT: Green Drinks im Test">
+              <img class="v-shelf__phone" src="assets/phones/phone-1-welt.webp" alt="Artikel in der WELT: Green Drinks im Test" />
+              <div class="v-card v-shelf__card v-shelf__card--top">
+                <div class="v-card__head" style="justify-content:flex-start"><span class="v-card__ico"><img src="assets/icons/hero-elemente/laurel.svg" alt="" /></span><span class="v-card__title">Nummer 1 Empfehlung im Testumfeld</span></div>
+                <div class="v-rows"><div class="is-top"><span>1</span><i class="v-bar v-bar--ph" style="--w:92%"><i style="--v:1"></i></i></div><div><span>2</span><i class="v-bar v-bar--ph" style="--w:70%"></i></div><div><span>3</span><i class="v-bar v-bar--ph" style="--w:56%"></i></div></div>
+              </div>
+              <div class="v-card v-shelf__card v-shelf__card--bottom">
+                <div class="v-card__head"><span class="v-card__title">Bessere Conversion durch WELT-Trust</span><span class="v-card__ico"><img src="assets/icons/hero-elemente/shield.svg" alt="" /></span></div>
+                <svg class="v-spark" viewBox="0 0 200 50" aria-hidden="true"><path class="v-line" pathLength="1" d="M4 44 C50 42 80 36 110 28 S170 10 196 4" /><circle class="v-dot v-dot--hot v-pop" style="--i:0" cx="196" cy="4" r="4" /></svg>
+              </div>
+            </div>
+
+            <div class="v-shelf__slide" aria-label="Süddeutsche Zeitung: Haartransplantation">
+              <img class="v-shelf__phone" src="assets/phones/phone-2-sueddeutsche.webp" alt="Artikel in der Süddeutschen Zeitung: Haartransplantation Türkei 2026" />
+              <div class="v-card v-shelf__card v-shelf__card--top">
+                <div class="v-card__head"><span class="v-card__title">Google: dauerhaft Top&nbsp;3</span><span class="v-chip">↗ Top 3</span></div>
+                <p class="v-card__meta">bei 8–12 Tsd. Suchvolumen</p>
+                <div class="v-rows"><div><span>1</span><i class="v-bar v-bar--ph" style="--w:80%"></i></div><div class="is-top"><span>2</span><i class="v-bar v-bar--ph" style="--w:92%"><i style="--v:1"></i></i></div><div><span>3</span><i class="v-bar v-bar--ph" style="--w:64%"></i></div></div>
+              </div>
+              <div class="v-card v-shelf__card v-shelf__card--bottom">
+                <span class="v-card__title">Sichtbar in ChatGPT und Gemini</span>
+                <div class="v-icons"><img src="assets/icons/chatgpt.svg" alt="ChatGPT" /><img src="assets/icons/hero-elemente/gemini.svg" alt="Gemini" /></div>
+              </div>
+            </div>
+
+            <div class="v-shelf__slide" aria-label="Forbes: Experteninterview DAHLER Bremen">
+              <img class="v-shelf__phone" src="assets/phones/phone-3-forbes.webp" alt="Experteninterview bei Forbes mit DAHLER Bremen" />
+              <div class="v-card v-shelf__card v-shelf__card--top">
+                <div class="v-card__head" style="justify-content:flex-start"><span class="v-card__ico"><img src="assets/icons/hero-elemente/mic.svg" alt="" /></span><span class="v-card__title">Platzierung als Experteninterview</span></div>
+              </div>
+              <div class="v-card v-shelf__card v-shelf__card--bottom">
+                <span class="v-card__title">Mehr Vertrauen dank Interview + Social Posting</span>
+                <img class="v-card__media" src="assets/icons/hero-elemente/people.svg" alt="" style="width:64px" />
+              </div>
+            </div>
+
+            <div class="v-shelf__slide" aria-label="t3n: Bester Kaffeevollautomat 2026">
+              <img class="v-shelf__phone" src="assets/phones/phone-4-t3n.webp" alt="Artikel bei t3n: Bester Kaffeevollautomat 2026" />
+              <div class="v-card v-shelf__card v-shelf__card--top">
+                <div class="v-card__head"><span class="v-card__title">„Bekannt aus t3n“-Logo</span><img src="assets/icons/hero-elemente/t3n.png" alt="t3n" style="width:40px" /></div>
+              </div>
+              <div class="v-card v-shelf__card v-shelf__card--bottom">
+                <p class="v-card__meta" style="margin:0">Unique User pro Monat im t3n-Newsfeed</p>
+                <p class="v-card__big" style="margin-top:6px"><span data-count="4.5" data-decimals="1">4,5</span> <small>Mio.</small></p>
+              </div>
+            </div>
+
+            <div class="v-shelf__slide" aria-label="Handelsblatt: Immobilie verkaufen in Karlsruhe">
+              <img class="v-shelf__phone" src="assets/phones/phone-5-handelsblatt.webp" alt="Artikel im Handelsblatt: Immobilie verkaufen in Karlsruhe, RockHold Immobilien" />
+              <div class="v-card v-rank v-shelf__card v-shelf__card--top">
+                <div class="v-card__head"><span class="v-card__title">Google-Ranking</span><span class="v-badge">Platz 1</span></div>
+                <svg class="v-rank__chart" viewBox="0 0 240 90" aria-hidden="true">
+                  <line class="v-rank__grid" x1="0" y1="20" x2="240" y2="20" /><line class="v-rank__grid" x1="0" y1="50" x2="240" y2="50" /><line class="v-rank__grid" x1="0" y1="80" x2="240" y2="80" />
+                  <path class="v-line" pathLength="1" d="M10 80 C40 76 50 68 70 66 S110 54 130 48 S170 30 190 24 S220 12 230 10" />
+                  <circle class="v-dot v-pop" style="--i:0" cx="70" cy="66" r="4" /><circle class="v-dot v-pop" style="--i:1" cx="130" cy="48" r="4" /><circle class="v-dot v-pop" style="--i:2" cx="190" cy="24" r="4" /><circle class="v-dot v-dot--hot v-pop" style="--i:3" cx="230" cy="10" r="5" />
+                </svg>
+                <p class="v-card__meta">„Immobilie verkaufen Karlsruhe“ · in 6 Wochen</p>
+              </div>
+              <div class="v-card v-clicks v-shelf__card v-shelf__card--bottom">
+                <span class="v-card__meta" style="margin:0">Klicks pro Monat</span>
+                <div class="v-clicks__num"><span class="v-card__big" data-count="200">200</span><span class="v-chip">über 1.000 € Trafficvalue</span></div>
+                <svg class="v-clicks__chart" viewBox="0 0 240 60" aria-hidden="true"><defs><linearGradient id="vc-a1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3AD4F" stop-opacity=".35" /><stop offset="1" stop-color="#F3AD4F" stop-opacity="0" /></linearGradient></defs><path class="v-area" fill="url(#vc-a1)" d="M0 54 C30 52 50 48 80 42 S130 28 160 22 S210 8 240 4 L240 60 L0 60 Z" /><path class="v-line" pathLength="1" d="M0 54 C30 52 50 48 80 42 S130 28 160 22 S210 8 240 4" /></svg>
+              </div>
+            </div>
+
+            <div class="v-shelf__slide" aria-label="Merkur.de: Wärmepumpe München 2026">
+              <img class="v-shelf__phone" src="assets/phones/phone-6-merkur.webp" alt="Artikel bei Merkur.de: Wärmepumpe München 2026" />
+              <div class="v-card v-shelf__card v-shelf__card--top">
+                <div class="v-card__head" style="justify-content:flex-start"><span class="v-card__ico"><img src="assets/icons/hero-elemente/pin-map.svg" alt="" /></span><span class="v-card__title">Exklusive Platzierung als regional führender Anbieter</span></div>
+              </div>
+              <div class="v-card v-shelf__card v-shelf__card--bottom">
+                <span class="v-card__title">Gezielte Leadansprache Region München</span>
+                <img class="v-card__media" src="assets/icons/hero-elemente/lead-row.svg" alt="" style="width:110px" />
+              </div>
+            </div>
+
+          </div>
+          <button class="v-shelf__zone v-shelf__zone--prev" type="button" data-shelf-prev aria-label="Vorherige Veröffentlichung"></button>
+          <button class="v-shelf__zone v-shelf__zone--next" type="button" data-shelf-next aria-label="Nächste Veröffentlichung"></button>
+          <div class="v-shelf__controls">
+            <button class="ph-arrow ph-arrow--prev" type="button" data-shelf-prev aria-label="Zurück"></button>
+            <button class="ph-arrow ph-arrow--next" type="button" data-shelf-next aria-label="Weiter"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FILLABLE ===================== -->
+    <div class="doc-label" id="fillable"><h2>Befüllbare Visuals <code>.v-*</code></h2><p>Ersetzen die Lotties, wenn Inhalte angepasst werden müssen</p></div>
+    <section class="ph-shell ph-shell--tight">
+      <div class="ph-container ph-container--wide">
+        <div class="doc-grid doc-grid--3">
+
+          <article class="doc-tile">
+            <h3>1 · <code>.v-article-phone</code></h3>
+            <div class="doc-tile__stage">
+              <div class="v-article-phone" data-scroll style="max-width:240px">
+                <div class="v-article-phone__screen">
+                  <div class="v-article-phone__status"><span>9:41</span><i class="v-article-phone__island"></i><span class="v-article-phone__sys"><i></i><i></i></span></div>
+                  <div class="v-article-phone__scroll">
+                    <div class="v-article-phone__mast"><img src="assets/artikel/crops/mast-handelsblatt.webp" alt="Handelsblatt" /><span><i></i><i></i></span></div>
+                    <p class="v-article-phone__kicker">Immobilie verkaufen Karlsruhe</p>
+                    <h4 class="v-article-phone__title">Immobilie verkaufen in Karlsruhe: So erzielen Eigentümer den besten Preis – mit Expertenhilfe</h4>
+                    <p class="v-article-phone__by">14.04.2026 · Stan Groeteke – PresseHelden</p>
+                    <img class="v-article-phone__img" src="assets/artikel/crops/foto-handelsblatt-rockhold.webp" alt="Das Team von RockHold Immobilien" />
+                    <p class="v-article-phone__text">Wer in Karlsruhe eine Immobilie verkaufen möchte, steht vor vielen Fragen: Welcher Preis ist realistisch, wann ist der richtige Zeitpunkt und welcher Makler passt?</p>
+                  </div>
+                  <i class="v-article-phone__home"></i>
+                </div>
+              </div>
+            </div>
+            <p>Masthead, Rubrik in <code>--orange-ink</code>, Headline Geist 700, Foto, Teaser. <code>data-scroll</code> lässt den Artikel langsam wandern (12 s). Inhalt hier: echter Handelsblatt-Artikel (RockHold).</p>
+          </article>
+
+          <article class="doc-tile">
+            <h3>2 · <code>.v-rank</code></h3>
+            <div class="doc-tile__stage">
+              <div class="v-card v-rank">
+                <div class="v-card__head"><span class="v-card__title">Google-Ranking</span><span class="v-badge">Platz 1</span></div>
+                <svg class="v-rank__chart" viewBox="0 0 240 90" aria-hidden="true">
+                  <line class="v-rank__grid" x1="0" y1="20" x2="240" y2="20" /><line class="v-rank__grid" x1="0" y1="50" x2="240" y2="50" /><line class="v-rank__grid" x1="0" y1="80" x2="240" y2="80" />
+                  <path class="v-line" pathLength="1" d="M10 80 C40 76 50 68 70 66 S110 54 130 48 S170 30 190 24 S220 12 230 10" />
+                  <circle class="v-dot v-pop" style="--i:0" cx="70" cy="66" r="4" /><circle class="v-dot v-pop" style="--i:1" cx="130" cy="48" r="4" /><circle class="v-dot v-pop" style="--i:2" cx="190" cy="24" r="4" /><circle class="v-dot v-dot--hot v-pop" style="--i:3" cx="230" cy="10" r="5" />
+                </svg>
+                <p class="v-card__meta">„Immobilie verkaufen Karlsruhe“ · in 6 Wochen</p>
+              </div>
+            </div>
+            <p>Linie zeichnet sich in 1200 ms (<code>--e-draw</code>), Punkte poppen im 280-ms-Takt, letzter Punkt orange. Beleg: Handelsblatt / RockHold.</p>
+            <div class="doc-tile__foot"><span>Start: in Sicht (40 %)</span><button class="doc-btn" type="button" data-replay>Neu abspielen</button></div>
+          </article>
+
+          <article class="doc-tile">
+            <h3>3 · <code>.v-clicks</code></h3>
+            <div class="doc-tile__stage">
+              <div class="v-card v-clicks">
+                <span class="v-card__meta" style="margin:0">Klicks pro Monat</span>
+                <div class="v-clicks__num"><span class="v-card__big" data-count="200">200</span><span class="v-chip">über 1.000 € Trafficvalue</span></div>
+                <svg class="v-clicks__chart" viewBox="0 0 240 60" aria-hidden="true"><defs><linearGradient id="vc-a2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3AD4F" stop-opacity=".35" /><stop offset="1" stop-color="#F3AD4F" stop-opacity="0" /></linearGradient></defs><path class="v-area" fill="url(#vc-a2)" d="M0 54 C30 52 50 48 80 42 S130 28 160 22 S210 8 240 4 L240 60 L0 60 Z" /><path class="v-line" pathLength="1" d="M0 54 C30 52 50 48 80 42 S130 28 160 22 S210 8 240 4" /></svg>
+              </div>
+            </div>
+            <p>Zahl zählt in 1600 ms hoch (<code>--e-enter</code>, deutsches Format), Kurve zeichnet sich, Fläche blendet nach. Beleg: Handelsblatt / RockHold.</p>
+            <div class="doc-tile__foot"><span>Ersetzt L11</span><button class="doc-btn" type="button" data-replay>Neu abspielen</button></div>
+          </article>
+
+          <article class="doc-tile doc-tile--grey">
+            <h3>4 · <code>.v-serp</code></h3>
+            <div class="doc-tile__stage">
+              <div class="v-serp" data-serp data-loop="6000">
+                <div class="v-serp__inner">
+                  <div class="v-serp__bar"><img src="assets/icons/google-g.svg" alt="" /><span class="v-serp__q">Dienstleistung in Ihrer Branche <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg></span></div>
+                  <div class="v-serp__tabs"><span class="is-active">Alle</span><span>Bilder</span><span>News</span><span>Videos</span><span>Mehr</span></div>
+                  <ol class="v-serp__list">
+                    <li class="v-serp__res v-serp__res--you"><div><span class="v-serp__name">Ihr Unternehmen</span><span class="v-serp__url">www.ihrunternehmen.de</span><span class="v-serp__tag">Meist gesucht ↗</span></div><svg class="v-serp__trophy" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V17h3v3H8v-3h3v-2.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3V3zm-1 4v1a2 2 0 0 0 1 1.7V7H6zm11 0v2.7A2 2 0 0 0 18 8V7h-1z" /></svg></li>
+                    <li class="v-serp__res v-serp__res--rival"><div><span class="v-serp__name">Ihr Konkurrent</span><span class="v-serp__url">www.konkurrent.de</span><span class="v-serp__tag">Meist gesucht ↗</span></div><svg class="v-serp__trophy" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V17h3v3H8v-3h3v-2.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3V3zm-1 4v1a2 2 0 0 0 1 1.7V7H6zm11 0v2.7A2 2 0 0 0 18 8V7h-1z" /></svg></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <p>Start: Konkurrent oben. Nach 1200 ms tauschen die Ergebnisse (800 ms <code>--e-shelf</code>), Ihr Ergebnis bekommt den orangen Rahmen. Loop 6 s. Ersetzt L1.</p>
+          </article>
+
+          <article class="doc-tile doc-tile--photo">
+            <h3>5 · <code>.v-prompt</code> · 6 · <code>.v-search</code></h3>
+            <div class="doc-tile__stage" style="gap:16px">
+              <div class="ph-channel" style="width:100%">
+                <div class="ph-channel__media" style="height:auto">
+                  <div class="v-search" data-type-loop>
+                    <div class="v-search__word" aria-hidden="true"><span>S</span><span>e</span><span>a</span><span>r</span><span>c</span><span>h</span></div>
+                    <div class="v-search__field"><span><span class="v-type" data-type="Immobilie verkaufen München"></span><span class="v-caret"></span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z" /><path fill="#34A853" d="M17 12a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-2.1A7 7 0 0 0 19 12h-2z" /></svg></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ph-channel" style="width:100%">
+                <div class="ph-channel__media" style="height:auto; padding:12px">
+                  <div class="v-prompt" data-type-loop>
+                    <div class="v-prompt__field">
+                      <span class="v-prompt__text"><span class="v-type" data-type="Nenne mir den besten Immobilienmakler in Hannover"></span><span class="v-caret"></span></span>
+                      <svg class="v-prompt__mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
+                      <span class="v-prompt__send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" /></svg></span>
+                    </div>
+                    <div class="v-prompt__tools">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m21 11-8.6 8.6a5 5 0 0 1-7-7L14 4a3.3 3.3 0 0 1 4.7 4.7l-8.6 8.6a1.7 1.7 0 0 1-2.4-2.4L15 7.6" /></svg>
+                      <span class="v-prompt__search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" /></svg>Search</span>
+                    </div>
+                    <p class="v-prompt__answer">Empfehlung: <strong>Ihr Unternehmen</strong> <span class="v-src">Quelle: Medienartikel</span> <span class="v-chip v-chip--neutral">Beispiel</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>80 ms pro Zeichen, Cursor blinkt im 1-s-Takt. Prompt: Senden-Knopf drückt (240 ms), Antwort mit Quelle blendet ein. Loop ≈ 11 s wie L8/L9.</p>
+          </article>
+
+          <article class="doc-tile">
+            <h3>7 · <code>.v-gap</code></h3>
+            <div class="doc-tile__stage">
+              <div class="v-gap">
+                <svg viewBox="0 0 520 260" aria-hidden="true">
+                  <line x1="20" y1="230" x2="500" y2="230" stroke="#E2E2E2" />
+                  <path class="v-gap__area-rival v-area" d="M20 200 C120 190 200 150 280 110 S420 40 500 26 L500 230 L20 230 Z" />
+                  <path class="v-gap__area-you v-area" d="M20 206 C150 204 300 200 500 192 L500 230 L20 230 Z" />
+                  <path class="v-line v-gap__rival" pathLength="1" d="M20 200 C120 190 200 150 280 110 S420 40 500 26" />
+                  <path class="v-line v-gap__you" pathLength="1" d="M20 206 C150 204 300 200 500 192" />
+                  <text class="v-gap__axis" x="20" y="254">HEUTE</text><text class="v-gap__axis" x="260" y="254" text-anchor="middle">6 MONATE</text><text class="v-gap__axis" x="500" y="254" text-anchor="end">12 MONATE</text>
+                </svg>
+                <div class="v-gap__tip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>Die Lücke wird größer</div>
+                <div class="v-gap__legend"><span class="is-rival"><b>Konkurrenz</b></span><span class="is-you"><b>Ihr Unternehmen</b></span></div>
+              </div>
+            </div>
+            <p>Zwei Linien zeichnen sich, Tooltip poppt danach. Farben nur hier: <code>--data-rival</code> / <code>--data-you</code>. Ersetzt L3.</p>
+            <div class="doc-tile__foot"><span>Schematisch, ohne Zahlen</span><button class="doc-btn" type="button" data-replay>Neu abspielen</button></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STAGE ===================== -->
+    <div class="doc-label" id="stage"><h2>Komposition <code>.v-stage</code></h2><p>Ein Basis-Element, max. zwei Karten, Überlappung 25–40 %, Drehung ±2°</p></div>
+    <section class="ph-shell ph-shell--photo">
+      <img class="ph-shell__photo" src="assets/fotos/buero-unscharf-hintergrund.webp" alt="" />
+      <div class="ph-container">
+        <div class="v-stage" style="max-width:620px; margin-inline:auto; min-height:560px">
+          <div class="v-article-phone" style="max-width:250px">
+            <div class="v-article-phone__screen">
+              <div class="v-article-phone__status"><span>9:41</span><i class="v-article-phone__island"></i><span class="v-article-phone__sys"><i></i><i></i></span></div>
+              <div class="v-article-phone__scroll">
+                <div class="v-article-phone__mast"><img src="assets/artikel/crops/mast-merkur.webp" alt="Merkur.de" /><span><i></i><i></i></span></div>
+                <p class="v-article-phone__kicker">Verbraucher</p>
+                <h4 class="v-article-phone__title">Wärmepumpe München 2026: So gelingt der Heizungstausch mit einem regionalen Meisterbetrieb</h4>
+                <p class="v-article-phone__by">28.07.2026, 15:45 Uhr</p>
+                <img class="v-article-phone__img" src="assets/artikel/crops/foto-merkur-nuuenergy.webp" alt="Die Geschäftsführung von nuuEnergy" />
+              </div>
+              <i class="v-article-phone__home"></i>
+            </div>
+          </div>
+          <div class="v-card v-stage__card v-stage__card--tl" data-reveal="pop" data-play>
+            <span class="v-card__title">Potenzialanalyse</span>
+            <p class="v-card__meta">Sichtbarkeitsscore <span class="v-chip v-chip--neutral" style="margin-left:4px">Beispiel</span></p>
+            <p class="v-card__big" style="margin-top:8px"><span data-count="82">82</span> <small>/100</small></p>
+            <div class="v-bar" style="margin-top:10px"><i style="--v:.82"></i></div>
+          </div>
+          <div class="v-card v-stage__card v-stage__card--br v-float" data-reveal="pop" style="--i:2">
+            <span class="v-card__title">Gezielte Leadansprache</span>
+            <p class="v-card__meta">Region München</p>
+            <img class="v-card__media" src="assets/icons/hero-elemente/lead-row.svg" alt="" style="width:110px" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="doc-note">Regeln: Karten weiß, Orange nur für Kappen, Punkte, Linien und aktive Ränder. Zahlen nur aus <code>testimonials.md</code> (Ergebnis-Claims) mit Medium und Kunde, sonst Karte mit „Beispiel“ kennzeichnen. Nie eine Karte auf ein Gesicht legen.</p>
+
+    <!-- ===================== LOTTIE ===================== -->
+    <div class="doc-label" id="lotties"><h2>Original-Lotties</h2><p><code>lottie-web</code> 5.13 · SVG-Renderer · lädt erst bei Sichtbarkeit</p></div>
+    <section class="ph-shell ph-shell--tight">
+      <div class="ph-container ph-container--wide">
+        <div class="doc-grid">
+          <article class="doc-tile"><h3>L1 · SERP-Tausch</h3>
+            <div class="ph-lottie" style="aspect-ratio:610/500" data-lottie="assets/lottie/L1-desktop-V02.json" data-label="Google-Suchergebnis: Ihr Unternehmen überholt die Konkurrenz"><img class="ph-lottie__poster" src="assets/lottie/posters/L1-desktop-V02.webp" alt="" /></div>
+            <div class="doc-tile__foot"><span>Split / SERP · view · 4,0 s</span><button class="doc-btn" type="button" data-lottie-replay>Neu</button></div></article>
+          <article class="doc-tile"><h3>L3 · Lücken-Chart</h3>
+            <div class="ph-lottie" style="aspect-ratio:709/435" data-lottie="assets/lottie/L3-desktop-V01.json" data-label="Chart: Die Lücke zur Konkurrenz wird größer"><img class="ph-lottie__poster" src="assets/lottie/posters/L3-desktop-V01.webp" alt="" /></div>
+            <div class="doc-tile__foot"><span>Folgen · view · 6,0 s</span><button class="doc-btn" type="button" data-lottie-replay>Neu</button></div></article>
+          <article class="doc-tile"><h3>L4 · Aufwand-Tacho</h3>
+            <div class="doc-tile__stage" style="min-height:0"><div class="ph-lottie" style="aspect-ratio:87/90; width:120px" data-lottie="assets/lottie/L4-desktop-V01.json" data-label="Tacho: Aufwand minimal"><img class="ph-lottie__poster" src="assets/lottie/posters/L4-desktop-V01.webp" alt="" /></div></div>
+            <div class="doc-tile__foot"><span>Aufwand · view · 4,5 s</span><button class="doc-btn" type="button" data-lottie-replay>Neu</button></div></article>
+          <article class="doc-tile doc-tile--photo"><h3>L8 · Google tippt</h3>
+            <div class="ph-channel__media" style="height:auto; padding:8px"><div class="ph-lottie" style="aspect-ratio:430/180" data-lottie="assets/lottie/L8-desktop-V04.json" data-loop="true" data-label="Google-Suche: Suchbegriff wird eingetippt"><img class="ph-lottie__poster" src="assets/lottie/posters/L8-desktop-V04.webp" alt="" /></div></div>
+            <div class="doc-tile__foot" style="color:rgba(255,255,255,.8); border-color:rgba(255,255,255,.2)"><span>Kanal-Trio · Loop 11 s</span></div></article>
+          <article class="doc-tile doc-tile--photo"><h3>L9 · ChatGPT tippt</h3>
+            <div class="ph-channel__media" style="height:auto; padding:8px"><div class="ph-lottie" style="aspect-ratio:431/180" data-lottie="assets/lottie/L9-desktop-V03.json" data-loop="true" data-label="ChatGPT: Frage nach dem besten Anbieter wird eingetippt"><img class="ph-lottie__poster" src="assets/lottie/posters/L9-desktop-V03.webp" alt="" /></div></div>
+            <div class="doc-tile__foot" style="color:rgba(255,255,255,.8); border-color:rgba(255,255,255,.2)"><span>Kanal-Trio · Loop 11 s</span></div></article>
+          <article class="doc-tile"><h3>L10 · Ihr Fahrplan</h3>
+            <div class="ph-lottie" style="aspect-ratio:431/250" data-lottie="assets/lottie/L10-desktop-V05.json" data-end-frame="102" data-label="Fahrplan mit Conversion-Zuwachs"><img class="ph-lottie__poster" src="assets/lottie/posters/L10-desktop-V05.webp" alt="" /></div>
+            <div class="doc-tile__foot"><span>Schritt 01 · bis Frame 102</span><button class="doc-btn" type="button" data-lottie-replay>Neu</button></div></article>
+          <article class="doc-tile"><h3>L11 · Sichtbarkeit wächst</h3>
+            <div class="ph-lottie" style="aspect-ratio:433/252" data-lottie="assets/lottie/L11-desktop-V04.json" data-end-frame="131" data-label="Sichtbarkeit wächst: +156 % Klicks"><img class="ph-lottie__poster" src="assets/lottie/posters/L11-desktop-V04.webp" alt="" /></div>
+            <div class="doc-tile__foot"><span>Schritt 04 · bis Frame 131</span><button class="doc-btn" type="button" data-lottie-replay>Neu</button></div></article>
+          <article class="doc-tile"><h3>L2 · Ziel-Linie (Scroll)</h3>
+            <div class="doc-tile__stage" style="min-height:120px; background:#2B2724; border-radius:16px; padding:0 16px"><div class="ph-lottie" style="aspect-ratio:1140/40" data-lottie="assets/lottie/L2-desktop-V01.json" data-trigger="scroll" data-label="Fortschrittslinie mit vier Zielen"></div></div>
+            <div class="doc-tile__foot"><span>Ziel-Tabs · an Scroll gebunden</span></div></article>
+          <article class="doc-tile"><h3>Mobile · Potenzialanalyse</h3>
+            <div class="ph-lottie" style="aspect-ratio:1359/800" data-lottie="assets/lottie/mobile-lottie-cropped.json" data-label="Phone mit Analyse-Screen und schwebenden Karten"><img class="ph-lottie__poster" src="assets/lottie/posters/mobile-lottie-cropped.webp" alt="" /></div>
+            <div class="doc-tile__foot"><span>Audit-CTA · 1,7 MB · nur bei Bedarf</span><button class="doc-btn" type="button" data-lottie-replay>Neu</button></div></article>
+        </div>
+      </div>
+    </section>
+    <p class="doc-note">Lokal per Doppelklick (<code>file://</code>) lädt <code>ph-motion.js</code> die Lotties aus <code>assets/lottie/js/*.js</code>, auf einem Server direkt die JSON-Dateien. Bis die Animation bereit ist, steht das Endbild aus <code>assets/lottie/posters/</code>. Reduced Motion: Sprung auf den letzten Frame.</p>
+
+    <!-- ===================== LOOPS ===================== -->
+    <div class="doc-label" id="loops"><h2>Marquee &amp; Artikel-Spalten</h2><p>linear · 30 px/s · ziehbar · Spalten 30 s gegenläufig</p></div>
+    <section class="ph-shell ph-shell--wash-down">
+      <div class="ph-container ph-container--wide">
+        <div class="ph-marquee" data-marquee data-speed="30" aria-label="Bekannt aus">
+          <div class="ph-marquee__track">
+            <img src="assets/medienlogos/welt.webp" alt="WELT" /><img src="assets/medienlogos/sueddeutsche-zeitung.webp" alt="Süddeutsche Zeitung" /><img src="assets/medienlogos/forbes.webp" alt="Forbes" /><img src="assets/medienlogos/business-insider.webp" alt="Business Insider" /><img src="assets/medienlogos/t3n.webp" alt="t3n" /><img src="assets/medienlogos/tagesspiegel.webp" alt="Tagesspiegel" /><img src="assets/medienlogos/hamburger-abendblatt.webp" alt="Hamburger Abendblatt" /><img src="assets/medienlogos/frankfurter-rundschau.webp" alt="Frankfurter Rundschau" /><img src="assets/medienlogos/merkur-de.webp" alt="Merkur.de" /><img src="assets/medienlogos/berliner-morgenpost.webp" alt="Berliner Morgenpost" /><img src="assets/medienlogos/waz.webp" alt="WAZ" /><img src="assets/medienlogos/hna.webp" alt="HNA" />
+          </div>
+        </div>
+        <div style="height:48px"></div>
+        <div class="ph-marquee ph-marquee--clients" data-marquee data-speed="30" aria-label="Kunden">
+          <div class="ph-marquee__track">
+            <img src="assets/kundenlogos/engel-voelkers.webp" alt="Engel &amp; Völkers" /><img src="assets/kundenlogos/canon.webp" alt="Canon" /><img src="assets/kundenlogos/kitchenaid.webp" alt="KitchenAid" /><img src="assets/kundenlogos/mennekes.webp" alt="Mennekes" /><img src="assets/kundenlogos/hama.webp" alt="hama" /><img src="assets/kundenlogos/von-poll-immobilien.webp" alt="Von Poll Immobilien" /><img src="assets/kundenlogos/kalkhoff.webp" alt="Kalkhoff" /><img src="assets/kundenlogos/dahler.webp" alt="DAHLER" />
+          </div>
+        </div>
+        <div class="ph-marquee ph-marquee--clients" data-marquee data-speed="30" data-direction="right" aria-label="Weitere Kunden">
+          <div class="ph-marquee__track">
+            <img src="assets/kundenlogos/evernest.webp" alt="Evernest" /><img src="assets/kundenlogos/rockhold-immobilien.webp" alt="RockHold Immobilien" /><img src="assets/kundenlogos/solargie.webp" alt="Solargie" /><img src="assets/kundenlogos/nuu-energy.webp" alt="nuuEnergy" /><img src="assets/kundenlogos/greed.webp" alt="Greed" /><img src="assets/kundenlogos/epple.webp" alt="Epple" /><img src="assets/kundenlogos/kertos.webp" alt="Kertos" /><img src="assets/kundenlogos/vamo.webp" alt="vamo" />
+          </div>
+        </div>
+
+        <div class="ph-pair" style="margin-top:80px">
+          <div class="ph-stack">
+            <h2 class="ph-h2">Laufende <mark>Artikel-Spalten</mark></h2>
+            <p class="ph-body">Echte Artikel-Screens, Spalte 1 nach oben, Spalte 2 nach unten, 30 s je Spur, Maske 8 % oben und unten. Hover hält an. Reduced Motion: Spalten stehen und sind scrollbar.</p>
+          </div>
+          <div class="ph-columns__stage">
+            <div class="ph-columns__col"><div class="ph-columns__track">
+              <img src="assets/artikel/artikel-berliner-morgenpost-virtuelles-buero.webp" alt="Berliner Morgenpost: Virtuelles Büro in Berlin" loading="lazy" />
+              <img src="assets/artikel/artikel-hamburger-abendblatt-dr-kolle.webp" alt="Hamburger Abendblatt: Orthopäde Dr. Kolle" loading="lazy" />
+              <img src="assets/artikel/artikel-frankfurter-rundschau-solargie.webp" alt="Frankfurter Rundschau: Solargie" loading="lazy" />
+              <img src="assets/artikel/artikel-merkur-waermepumpe-muenchen.webp" alt="Merkur.de: Wärmepumpe München" loading="lazy" />
+              <img src="assets/artikel/artikel-sueddeutsche-haartransplantation.webp" alt="Süddeutsche Zeitung: Haartransplantation" loading="lazy" />
+            </div></div>
+            <div class="ph-columns__col ph-columns__col--down"><div class="ph-columns__track">
+              <img src="assets/artikel/artikel-forbes-dahler-bremen-interview.webp" alt="Forbes: Interview mit DAHLER Bremen" loading="lazy" />
+              <img src="assets/artikel/artikel-wirtschaftswoche-dahler-bremen.webp" alt="WirtschaftsWoche: DAHLER Bremen" loading="lazy" />
+              <img src="assets/artikel/artikel-welt-green-drinks.webp" alt="WELT: Green Drinks im Test" loading="lazy" />
+              <img src="assets/artikel/artikel-t3n-kaffeevollautomat.webp" alt="t3n: Kaffeevollautomat" loading="lazy" />
+              <img src="assets/artikel/artikel-handelsblatt-rockhold-karlsruhe.webp" alt="Handelsblatt: RockHold Karlsruhe" loading="lazy" />
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ph-shell ph-footer ph-shell--tight">
+    <div class="ph-container ph-footer__legal" style="margin-top:0"><span>PresseHelden Designsystem · Visual- und Motion-Lab · v0.1 Entwurf</span><nav><a href="components.html">Komponenten</a><a href="in-action.html">In Action</a></nav></div>
+  </footer>
+
+  <script src="ph-motion.js"></script>
+  <script>
+    document.querySelectorAll("[data-replay]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var v = b.closest(".doc-tile").querySelector(".v-rank, .v-clicks, .v-gap");
+        PH.play(v, false);
+        setTimeout(function () { PH.play(v, true); }, 400);
+      });
+    });
+    document.querySelectorAll("[data-lottie-replay]").forEach(function (b) {
+      b.addEventListener("click", function () { PH.playLottie(b.closest(".doc-tile").querySelector("[data-lottie]")); });
+    });
+  </script>
+</body>
+</html>

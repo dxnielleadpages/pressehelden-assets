@@ -1,0 +1,1536 @@
+{
+  "name": "PresseHelden Design System · Assets",
+  "version": "1.0",
+  "released": "2026-11-09",
+  "repo": "https://github.com/dxnielleadpages/pressehelden-assets",
+  "base_url": "https://dxnielleadpages.github.io/pressehelden-assets/",
+  "fallback_url": "https://raw.githubusercontent.com/dxnielleadpages/pressehelden-assets/main/",
+  "usage": "URL = base_url + path. Immer absolute URLs verwenden. Originale in voller Auflösung unter original/ (nicht für Builds).",
+  "css": "https://dxnielleadpages.github.io/pressehelden-assets/ph.css",
+  "motion": "https://dxnielleadpages.github.io/pressehelden-assets/ph-motion.js",
+  "reference_page": "https://dxnielleadpages.github.io/pressehelden-assets/in-action.html",
+  "components": "https://dxnielleadpages.github.io/pressehelden-assets/components.html",
+  "visuals": "https://dxnielleadpages.github.io/pressehelden-assets/visuals.html",
+  "docs": {
+    "v0.md": "https://dxnielleadpages.github.io/pressehelden-assets/docs/v0.md",
+    "STYLEGUIDE.md": "https://dxnielleadpages.github.io/pressehelden-assets/docs/STYLEGUIDE.md",
+    "BRAND-BRIEF.md": "https://dxnielleadpages.github.io/pressehelden-assets/docs/BRAND-BRIEF.md",
+    "tokens.json": "https://dxnielleadpages.github.io/pressehelden-assets/docs/tokens.json",
+    "cheatsheet.html": "https://dxnielleadpages.github.io/pressehelden-assets/docs/cheatsheet.html"
+  },
+  "assets": {
+    "artikel": {
+      "info": "Echte Kundenartikel als Screenshot (1401 × 968 im Original)",
+      "files": [
+        {
+          "path": "assets/artikel/artikel-berliner-morgenpost-virtuelles-buero.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-berliner-morgenpost-virtuelles-buero.webp",
+          "bytes": 77232,
+          "width": 1401,
+          "height": 968,
+          "description": "Berliner Morgenpost · Virtuelles Büro"
+        },
+        {
+          "path": "assets/artikel/artikel-dyson-test-ausschnitt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-dyson-test-ausschnitt.webp",
+          "bytes": 24032,
+          "width": 863,
+          "height": 500,
+          "description": "Dyson-Test · Ausschnitt (Prozess-Karte)"
+        },
+        {
+          "path": "assets/artikel/artikel-forbes-dahler-bremen-interview.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-forbes-dahler-bremen-interview.webp",
+          "bytes": 59966,
+          "width": 1401,
+          "height": 968,
+          "description": "Forbes · Philipp Hirsch, DAHLER Bremen"
+        },
+        {
+          "path": "assets/artikel/artikel-frankfurter-rundschau-solargie.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-frankfurter-rundschau-solargie.webp",
+          "bytes": 63566,
+          "width": 1401,
+          "height": 968,
+          "description": "FR · Solarteur Frankfurt (Solargie)"
+        },
+        {
+          "path": "assets/artikel/artikel-hamburger-abendblatt-dr-kolle.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-hamburger-abendblatt-dr-kolle.webp",
+          "bytes": 56490,
+          "width": 1401,
+          "height": 968,
+          "description": "Hamburger Abendblatt · Orthopäde Dr. Kolle"
+        },
+        {
+          "path": "assets/artikel/artikel-handelsblatt-rockhold-karlsruhe.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-handelsblatt-rockhold-karlsruhe.webp",
+          "bytes": 67274,
+          "width": 1401,
+          "height": 968,
+          "description": "Handelsblatt · Immobilie verkaufen Karlsruhe"
+        },
+        {
+          "path": "assets/artikel/artikel-merkur-waermepumpe-muenchen.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-merkur-waermepumpe-muenchen.webp",
+          "bytes": 126792,
+          "width": 1401,
+          "height": 968,
+          "description": "Merkur.de · Wärmepumpe München"
+        },
+        {
+          "path": "assets/artikel/artikel-sueddeutsche-haartransplantation.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-sueddeutsche-haartransplantation.webp",
+          "bytes": 64784,
+          "width": 1401,
+          "height": 968,
+          "description": "SZ · Haartransplantation Türkei"
+        },
+        {
+          "path": "assets/artikel/artikel-t3n-kaffeevollautomat.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-t3n-kaffeevollautomat.webp",
+          "bytes": 94906,
+          "width": 1401,
+          "height": 968,
+          "description": "t3n · Kaffeevollautomat KitchenAid"
+        },
+        {
+          "path": "assets/artikel/artikel-tagesspiegel-virtuelles-buero-ausschnitt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-tagesspiegel-virtuelles-buero-ausschnitt.webp",
+          "bytes": 34528,
+          "width": 866,
+          "height": 488,
+          "description": "Tagesspiegel · Ausschnitt (Prozess-Karte)"
+        },
+        {
+          "path": "assets/artikel/artikel-welt-green-drinks.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-welt-green-drinks.webp",
+          "bytes": 103840,
+          "width": 1401,
+          "height": 968,
+          "description": "WELT · Green Drinks im Test"
+        },
+        {
+          "path": "assets/artikel/artikel-wirtschaftswoche-dahler-bremen.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/artikel-wirtschaftswoche-dahler-bremen.webp",
+          "bytes": 43520,
+          "width": 1401,
+          "height": 968,
+          "description": "WirtschaftsWoche · Immobilienbewertung Bremen"
+        }
+      ]
+    },
+    "artikel/crops": {
+      "info": "Ausschnitte für befüllbare Phones: Masthead und Aufmacherfoto",
+      "files": [
+        {
+          "path": "assets/artikel/crops/foto-handelsblatt-rockhold.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/crops/foto-handelsblatt-rockhold.webp",
+          "bytes": 26764,
+          "width": 1176,
+          "height": 500,
+          "description": "Aufmacherfoto aus dem Handelsblatt-Artikel RockHold · Bild in .v-article-phone"
+        },
+        {
+          "path": "assets/artikel/crops/foto-merkur-nuuenergy.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/crops/foto-merkur-nuuenergy.webp",
+          "bytes": 86464,
+          "width": 1306,
+          "height": 330,
+          "description": "Aufmacherfoto aus dem Merkur-Artikel nuuEnergy · Bild in .v-article-phone"
+        },
+        {
+          "path": "assets/artikel/crops/mast-handelsblatt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/crops/mast-handelsblatt.webp",
+          "bytes": 4970,
+          "width": 350,
+          "height": 62,
+          "description": "Handelsblatt-Kopfzeile · Masthead in .v-article-phone"
+        },
+        {
+          "path": "assets/artikel/crops/mast-merkur.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/artikel/crops/mast-merkur.webp",
+          "bytes": 4838,
+          "width": 352,
+          "height": 80,
+          "description": "Merkur.de-Kopfzeile · Masthead in .v-article-phone"
+        }
+      ]
+    },
+    "fonts": {
+      "info": "Geist und Inter, SIL OFL 1.1",
+      "files": [
+        {
+          "path": "assets/fonts/LICENSE.txt",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/LICENSE.txt",
+          "bytes": 9057,
+          "description": "SIL OFL 1.1 für Geist und Inter"
+        },
+        {
+          "path": "assets/fonts/geist-400.woff2",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/geist-400.woff2",
+          "bytes": 12956,
+          "description": "Geist 400 · Headline-Rest, Footer-Nav"
+        },
+        {
+          "path": "assets/fonts/geist-600.woff2",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/geist-600.woff2",
+          "bytes": 13372,
+          "description": "Geist 600 · H3, H4, Card-Titel"
+        },
+        {
+          "path": "assets/fonts/geist-700.woff2",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/geist-700.woff2",
+          "bytes": 13364,
+          "description": "Geist 700 · Band-Teil der Headlines, Buttons, Großziffern"
+        },
+        {
+          "path": "assets/fonts/inter-400.woff2",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/inter-400.woff2",
+          "bytes": 23664,
+          "description": "Inter 400 · Fließtext, FAQ-Antworten"
+        },
+        {
+          "path": "assets/fonts/inter-600.woff2",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/inter-600.woff2",
+          "bytes": 24452,
+          "description": "Inter 600 · Labels, FAQ-Fragen, Rotator-Zeilen"
+        },
+        {
+          "path": "assets/fonts/inter-700.woff2",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fonts/inter-700.woff2",
+          "bytes": 24356,
+          "description": "Inter 700 · Eyebrow, Kennzahlen"
+        }
+      ]
+    },
+    "fotos": {
+      "info": "Team- und Hintergrundfotos für Foto-Schalen",
+      "files": [
+        {
+          "path": "assets/fotos/buero-unscharf-hintergrund.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/buero-unscharf-hintergrund.webp",
+          "bytes": 11360,
+          "width": 1600,
+          "height": 764,
+          "description": "Büro, stark unscharf · Potenzialanalyse-CTA"
+        },
+        {
+          "path": "assets/fotos/mann-tablet-postits.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/mann-tablet-postits.webp",
+          "bytes": 89616,
+          "width": 1362,
+          "height": 818,
+          "description": "Mann mit Tablet vor Post-its · „Sichtbarkeit entsteht nicht zufällig“"
+        },
+        {
+          "path": "assets/fotos/stock-frau-laptop-fragen-sie-den-experten.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/stock-frau-laptop-fragen-sie-den-experten.webp",
+          "bytes": 85230,
+          "width": 1600,
+          "height": 1121,
+          "description": "**Stockfoto** (Shutterstock): Frau am Laptop · „Fragen Sie den Experten!“"
+        },
+        {
+          "path": "assets/fotos/stock-meeting-buero-kein-vertrauen.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/stock-meeting-buero-kein-vertrauen.webp",
+          "bytes": 106212,
+          "width": 1600,
+          "height": 1088,
+          "description": "**Stockfoto** (Shutterstock): Meeting im hellen Büro · „Kein Vertrauen“; siehe `slop-detected.md`"
+        },
+        {
+          "path": "assets/fotos/team-gespraech-laptop.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/team-gespraech-laptop.webp",
+          "bytes": 69770,
+          "width": 1362,
+          "height": 818,
+          "description": "Gespräch am Tisch, Laptop „Cherrydeck“ · „Ihr Aufwand: Minimal“"
+        },
+        {
+          "path": "assets/fotos/team-hochformat-erweitert.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/team-hochformat-erweitert.webp",
+          "bytes": 69654,
+          "width": 1121,
+          "height": 1600,
+          "description": "KI-erweiterte Hochformate desselben Teamfotos · Mobile-Hintergründe"
+        },
+        {
+          "path": "assets/fotos/team-hochformat-schmal-1.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/team-hochformat-schmal-1.webp",
+          "bytes": 63820,
+          "width": 590,
+          "height": 1600,
+          "description": "KI-erweitertes Hochformat des Teamfotos, schmal · Mobile-Hintergrund"
+        },
+        {
+          "path": "assets/fotos/team-hochformat-schmal-2.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/team-hochformat-schmal-2.webp",
+          "bytes": 48734,
+          "width": 668,
+          "height": 1600,
+          "description": "KI-erweitertes Hochformat des Teamfotos, schmal · Mobile-Hintergrund"
+        },
+        {
+          "path": "assets/fotos/team-laptop-gruen-verlauf.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/team-laptop-gruen-verlauf.webp",
+          "bytes": 64132,
+          "width": 1600,
+          "height": 848,
+          "description": "3 Teammitglieder am Laptop, unten grüner Verlauf · Ziel-Tabs-Section; echtes Team"
+        },
+        {
+          "path": "assets/fotos/team-vier-personen-laptop.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/fotos/team-vier-personen-laptop.webp",
+          "bytes": 104054,
+          "width": 1362,
+          "height": 818,
+          "description": "4 Personen am Laptop · „International“"
+        }
+      ]
+    },
+    "icons": {
+      "info": "Marken- und Steuer-Icons",
+      "files": [
+        {
+          "path": "assets/icons/chatgpt-kreis.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/chatgpt-kreis.svg",
+          "bytes": 105747,
+          "width": 75,
+          "height": 75,
+          "description": "ChatGPT-Signet im Kreis · Split-Hub, Kanal-Kennzeichen"
+        },
+        {
+          "path": "assets/icons/chatgpt.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/chatgpt.svg",
+          "bytes": 105674,
+          "width": 49,
+          "height": 49,
+          "description": "ChatGPT-Signet · Leistung 02, Kanal-Kennzeichen"
+        },
+        {
+          "path": "assets/icons/gemini-kreis.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/gemini-kreis.svg",
+          "bytes": 109702,
+          "width": 75,
+          "height": 75,
+          "description": "Gemini-Signet im Kreis · Kanal-Kennzeichen"
+        },
+        {
+          "path": "assets/icons/google-g.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/google-g.svg",
+          "bytes": 1147,
+          "width": 59,
+          "height": 59,
+          "description": "Google-G farbig · Google-Badge, Leistung 01"
+        },
+        {
+          "path": "assets/icons/punkt-orange.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/punkt-orange.svg",
+          "bytes": 258,
+          "width": 15,
+          "height": 15,
+          "description": "Orange Punkt mit Halo · Eyebrow, Testimonial-Name, Kanal-Label"
+        },
+        {
+          "path": "assets/icons/slider-weiter.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/slider-weiter.svg",
+          "bytes": 287,
+          "width": 48,
+          "height": 48,
+          "description": "Pfeil weiter · .ph-arrow"
+        },
+        {
+          "path": "assets/icons/slider-zurueck.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/slider-zurueck.svg",
+          "bytes": 287,
+          "width": 48,
+          "height": 48,
+          "description": "Pfeil zurück · .ph-arrow"
+        }
+      ]
+    },
+    "icons/hero-elemente": {
+      "info": "Bausteine der Ergebnis-Karten im Phone-Regal",
+      "files": [
+        {
+          "path": "assets/icons/hero-elemente/arrow.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/arrow.svg",
+          "bytes": 560,
+          "width": 41,
+          "height": 12,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (arrow)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/award.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/award.svg",
+          "bytes": 6061,
+          "width": 28,
+          "height": 34,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (award)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/chatgpt.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/chatgpt.png",
+          "bytes": 504,
+          "width": 36,
+          "height": 36,
+          "description": "ChatGPT-Signet · Leistung 02, Kanal-Kennzeichen"
+        },
+        {
+          "path": "assets/icons/hero-elemente/forbes.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/forbes.png",
+          "bytes": 2437,
+          "width": 260,
+          "height": 74,
+          "description": "Forbes (weiß auf Schwarz)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/gemini.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/gemini.svg",
+          "bytes": 590,
+          "width": 21,
+          "height": 21,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (gemini)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/interview.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/interview.png",
+          "bytes": 3143,
+          "width": 160,
+          "height": 122,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (interview)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/laurel.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/laurel.svg",
+          "bytes": 3992,
+          "width": 21,
+          "height": 40,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (laurel)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/lead-row.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/lead-row.svg",
+          "bytes": 2069,
+          "width": 84,
+          "height": 22,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (lead-row)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/map.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/map.png",
+          "bytes": 47710,
+          "width": 614,
+          "height": 278,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (map)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/megaphone.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/megaphone.svg",
+          "bytes": 2580,
+          "width": 27,
+          "height": 26,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (megaphone)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/mic.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/mic.svg",
+          "bytes": 1413,
+          "width": 14,
+          "height": 24,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (mic)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/newspaper.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/newspaper.svg",
+          "bytes": 3841,
+          "width": 24,
+          "height": 21,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (newspaper)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/people.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/people.svg",
+          "bytes": 4867,
+          "width": 67,
+          "height": 36,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (people)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/pin-map.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/pin-map.svg",
+          "bytes": 2933,
+          "width": 21,
+          "height": 29,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (pin-map)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/pin.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/pin.svg",
+          "bytes": 1951,
+          "width": 23,
+          "height": 31,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (pin)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/rank-badge.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/rank-badge.svg",
+          "bytes": 864,
+          "width": 27,
+          "height": 26,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (rank-badge)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/shield.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/shield.svg",
+          "bytes": 3164,
+          "width": 29,
+          "height": 34,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (shield)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/star.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/star.svg",
+          "bytes": 1903,
+          "width": 11,
+          "height": 11,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (star)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/t3n-buttons.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/t3n-buttons.png",
+          "bytes": 1393,
+          "width": 178,
+          "height": 48,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (t3n-buttons)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/t3n-header.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/t3n-header.png",
+          "bytes": 739,
+          "width": 92,
+          "height": 46,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (t3n-header)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/t3n-nav.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/t3n-nav.png",
+          "bytes": 1597,
+          "width": 384,
+          "height": 16,
+          "description": "Baustein der Ergebnis-Karten im Phone-Regal (t3n-nav)"
+        },
+        {
+          "path": "assets/icons/hero-elemente/t3n.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/hero-elemente/t3n.png",
+          "bytes": 1028,
+          "width": 142,
+          "height": 92,
+          "description": "t3n digital pioneers"
+        }
+      ]
+    },
+    "icons/linien": {
+      "info": "Linien-Icons der Marke: schwarze Kontur, eine orange Akzentfläche",
+      "files": [
+        {
+          "path": "assets/icons/linien/aktualisieren-pfeile.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/aktualisieren-pfeile.svg",
+          "bytes": 1274,
+          "width": 44,
+          "height": 35,
+          "description": "Artikel-Aktualisierung"
+        },
+        {
+          "path": "assets/icons/linien/browser-cursor.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/browser-cursor.svg",
+          "bytes": 3438,
+          "width": 68,
+          "height": 65,
+          "description": "Abhängigkeit von Werbung"
+        },
+        {
+          "path": "assets/icons/linien/browser-lupe.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/browser-lupe.svg",
+          "bytes": 7641,
+          "width": 75,
+          "height": 65,
+          "description": "Kaum Infos über Ihr Unternehmen"
+        },
+        {
+          "path": "assets/icons/linien/dokument-stift.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/dokument-stift.svg",
+          "bytes": 3863,
+          "width": 79,
+          "height": 79,
+          "description": "4 Schritte"
+        },
+        {
+          "path": "assets/icons/linien/faq-minus.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/faq-minus.svg",
+          "bytes": 333,
+          "width": 60,
+          "height": 35,
+          "description": "Orange Pill mit Plus/Minus (FAQ)"
+        },
+        {
+          "path": "assets/icons/linien/faq-plus.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/faq-plus.svg",
+          "bytes": 448,
+          "width": 60,
+          "height": 35,
+          "description": "Orange Pill mit Plus/Minus (FAQ)"
+        },
+        {
+          "path": "assets/icons/linien/gluehbirne.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/gluehbirne.svg",
+          "bytes": 15017,
+          "width": 67,
+          "height": 65,
+          "description": "Exklusive Keywords"
+        },
+        {
+          "path": "assets/icons/linien/haendedruck-zahnraeder.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/haendedruck-zahnraeder.svg",
+          "bytes": 17931,
+          "width": 71,
+          "height": 78,
+          "description": "4 Schritte"
+        },
+        {
+          "path": "assets/icons/linien/haken-verlauf.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/haken-verlauf.svg",
+          "bytes": 656,
+          "width": 38,
+          "height": 38,
+          "description": "Vorteil-Pills (grüner Verlaufskreis mit Haken)"
+        },
+        {
+          "path": "assets/icons/linien/hand-person-pfeil.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/hand-person-pfeil.svg",
+          "bytes": 4513,
+          "width": 72,
+          "height": 68,
+          "description": "weniger qualifizierte Leads"
+        },
+        {
+          "path": "assets/icons/linien/held-rakete.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/held-rakete.svg",
+          "bytes": 5381,
+          "width": 80,
+          "height": 85,
+          "description": "Erfolg/Aufstieg (Person auf Podest mit Funken)"
+        },
+        {
+          "path": "assets/icons/linien/lupe-balken.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/lupe-balken.svg",
+          "bytes": 4551,
+          "width": 77,
+          "height": 62,
+          "description": "Konkurrenz rankt vor Ihnen"
+        },
+        {
+          "path": "assets/icons/linien/monitor-artikel.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/monitor-artikel.svg",
+          "bytes": 4823,
+          "width": 74,
+          "height": 74,
+          "description": "4 Schritte"
+        },
+        {
+          "path": "assets/icons/linien/muenzen-abwaerts.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/muenzen-abwaerts.svg",
+          "bytes": 9120,
+          "width": 64,
+          "height": 68,
+          "description": "Marketingbudget ohne Wirkung"
+        },
+        {
+          "path": "assets/icons/linien/nummer-01.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/nummer-01.svg",
+          "bytes": 1621,
+          "width": 138,
+          "height": 106,
+          "description": "Großziffer 01 hellgrau · Leistungs-Card"
+        },
+        {
+          "path": "assets/icons/linien/nummer-02.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/nummer-02.svg",
+          "bytes": 2491,
+          "width": 167,
+          "height": 106,
+          "description": "Großziffer 02 hellgrau · Leistungs-Card"
+        },
+        {
+          "path": "assets/icons/linien/nummer-03.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/nummer-03.svg",
+          "bytes": 3222,
+          "width": 171,
+          "height": 106,
+          "description": "Großziffer 03 hellgrau · Leistungs-Card"
+        },
+        {
+          "path": "assets/icons/linien/podest-stern.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/podest-stern.svg",
+          "bytes": 1069,
+          "width": 64,
+          "height": 67,
+          "description": "Andere gelten als Experten"
+        },
+        {
+          "path": "assets/icons/linien/praesentation-lupe.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/praesentation-lupe.svg",
+          "bytes": 5979,
+          "width": 81,
+          "height": 73,
+          "description": "4 Schritte"
+        },
+        {
+          "path": "assets/icons/linien/rechner-kurve.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/rechner-kurve.svg",
+          "bytes": 3878,
+          "width": 61,
+          "height": 67,
+          "description": "steigende Akquisekosten"
+        },
+        {
+          "path": "assets/icons/linien/schild-haendedruck.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/schild-haendedruck.svg",
+          "bytes": 4510,
+          "width": 76,
+          "height": 85,
+          "description": "weniger Vertrauen"
+        },
+        {
+          "path": "assets/icons/linien/schritt-01.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/schritt-01.svg",
+          "bytes": 1615,
+          "width": 38,
+          "height": 29,
+          "description": "Großziffer 01 mit Schwarz-Verlauf · Zeilen-Cards"
+        },
+        {
+          "path": "assets/icons/linien/schritt-02.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/schritt-02.svg",
+          "bytes": 2486,
+          "width": 46,
+          "height": 29,
+          "description": "Großziffer 02 mit Schwarz-Verlauf · Zeilen-Cards"
+        },
+        {
+          "path": "assets/icons/linien/schritt-03.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/schritt-03.svg",
+          "bytes": 3206,
+          "width": 47,
+          "height": 29,
+          "description": "Großziffer 03 mit Schwarz-Verlauf · Zeilen-Cards"
+        },
+        {
+          "path": "assets/icons/linien/schritt-04.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/icons/linien/schritt-04.svg",
+          "bytes": 1701,
+          "width": 48,
+          "height": 29,
+          "description": "Großziffer 04 mit Schwarz-Verlauf · Zeilen-Cards"
+        }
+      ]
+    },
+    "kundenlogos": {
+      "info": "Logos von PresseHelden-Kunden, Originalfarben",
+      "files": [
+        {
+          "path": "assets/kundenlogos/canon.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/canon.webp",
+          "bytes": 8168,
+          "width": 460,
+          "height": 96,
+          "description": "Canon · Elektronik"
+        },
+        {
+          "path": "assets/kundenlogos/dahler.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/dahler.webp",
+          "bytes": 3810,
+          "width": 324,
+          "height": 96,
+          "description": "DAHLER · Immobilien"
+        },
+        {
+          "path": "assets/kundenlogos/die-daemmfuechse.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/die-daemmfuechse.webp",
+          "bytes": 7234,
+          "width": 138,
+          "height": 96,
+          "description": "Die Dämmfüchse · Handwerk"
+        },
+        {
+          "path": "assets/kundenlogos/engel-voelkers.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/engel-voelkers.webp",
+          "bytes": 15854,
+          "width": 886,
+          "height": 96,
+          "description": "Engel & Völkers · Immobilien"
+        },
+        {
+          "path": "assets/kundenlogos/entirely.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/entirely.webp",
+          "bytes": 12938,
+          "width": 463,
+          "height": 96,
+          "description": "Entirely"
+        },
+        {
+          "path": "assets/kundenlogos/epowerfun.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/epowerfun.webp",
+          "bytes": 5632,
+          "width": 271,
+          "height": 96,
+          "description": "ePowerFun · E-Mobilität"
+        },
+        {
+          "path": "assets/kundenlogos/epple.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/epple.webp",
+          "bytes": 5138,
+          "width": 352,
+          "height": 96,
+          "description": "EPPLE · Bau/Immobilien"
+        },
+        {
+          "path": "assets/kundenlogos/evernest.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/evernest.webp",
+          "bytes": 1630,
+          "width": 171,
+          "height": 96,
+          "description": "Evernest · Immobilien"
+        },
+        {
+          "path": "assets/kundenlogos/greed.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/greed.webp",
+          "bytes": 9328,
+          "width": 387,
+          "height": 96,
+          "description": "GREED · (Testimonial Robert Aschbacher)"
+        },
+        {
+          "path": "assets/kundenlogos/hama.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/hama.webp",
+          "bytes": 7000,
+          "width": 354,
+          "height": 96,
+          "description": "Hama · Elektronik"
+        },
+        {
+          "path": "assets/kundenlogos/kalkhoff.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/kalkhoff.webp",
+          "bytes": 6946,
+          "width": 824,
+          "height": 96,
+          "description": "Kalkhoff · E-Bikes"
+        },
+        {
+          "path": "assets/kundenlogos/kertos.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/kertos.webp",
+          "bytes": 5148,
+          "width": 421,
+          "height": 96,
+          "description": "kertos · Software/Datenschutz"
+        },
+        {
+          "path": "assets/kundenlogos/kitchenaid.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/kitchenaid.webp",
+          "bytes": 18220,
+          "width": 1134,
+          "height": 96,
+          "description": "KitchenAid · Haushalt"
+        },
+        {
+          "path": "assets/kundenlogos/las-anclas-ibiza.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/las-anclas-ibiza.webp",
+          "bytes": 22434,
+          "width": 553,
+          "height": 96,
+          "description": "Inmobiliaria Las Anclas Ibiza · Immobilien"
+        },
+        {
+          "path": "assets/kundenlogos/maximilian-goetze.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/maximilian-goetze.webp",
+          "bytes": 7340,
+          "width": 260,
+          "height": 96,
+          "description": "Maximilian Götze Finanzdienstleistungen · Finanzen"
+        },
+        {
+          "path": "assets/kundenlogos/mennekes.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/mennekes.webp",
+          "bytes": 10032,
+          "width": 392,
+          "height": 96,
+          "description": "MENNEKES · Elektro/Ladetechnik"
+        },
+        {
+          "path": "assets/kundenlogos/mute-labs.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/mute-labs.webp",
+          "bytes": 4946,
+          "width": 451,
+          "height": 96,
+          "description": "mute labs"
+        },
+        {
+          "path": "assets/kundenlogos/nuu-energy.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/nuu-energy.webp",
+          "bytes": 2952,
+          "width": 162,
+          "height": 96,
+          "description": "NUU energy · Energie"
+        },
+        {
+          "path": "assets/kundenlogos/rockhold-immobilien.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/rockhold-immobilien.webp",
+          "bytes": 6320,
+          "width": 243,
+          "height": 96,
+          "description": "RockHold Immobilien · Immobilien"
+        },
+        {
+          "path": "assets/kundenlogos/solargie.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/solargie.webp",
+          "bytes": 15384,
+          "width": 565,
+          "height": 96,
+          "description": "Solargie · Solar"
+        },
+        {
+          "path": "assets/kundenlogos/vamo.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/vamo.webp",
+          "bytes": 4910,
+          "width": 357,
+          "height": 96,
+          "description": "VAMO"
+        },
+        {
+          "path": "assets/kundenlogos/von-poll-immobilien.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/kundenlogos/von-poll-immobilien.webp",
+          "bytes": 9486,
+          "width": 334,
+          "height": 96,
+          "description": "Von Poll Immobilien · Immobilien"
+        }
+      ]
+    },
+    "lib": {
+      "info": "lottie-web (SVG-Renderer), MIT",
+      "files": [
+        {
+          "path": "assets/lib/LOTTIE-WEB-LICENSE.md",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lib/LOTTIE-WEB-LICENSE.md",
+          "bytes": 1075,
+          "description": "MIT-Lizenz lottie-web"
+        },
+        {
+          "path": "assets/lib/lottie_svg.min.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lib/lottie_svg.min.js",
+          "bytes": 242630,
+          "description": "lottie-web 5 (nur SVG-Renderer), wird von ph-motion.js bei Bedarf geladen"
+        }
+      ]
+    },
+    "logo": {
+      "info": "PresseHelden-Wortmarke und Signet",
+      "files": [
+        {
+          "path": "assets/logo/pressehelden-logo-quer.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/logo/pressehelden-logo-quer.png",
+          "bytes": 8417,
+          "width": 404,
+          "height": 99,
+          "description": "Wortmarke „PresseHelden“ mit Held-Signet, schwarz, 404 × 99 · Header, Footer, auf hellen Flächen"
+        },
+        {
+          "path": "assets/logo/pressehelden-logo-quer.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/logo/pressehelden-logo-quer.webp",
+          "bytes": 8756,
+          "width": 404,
+          "height": 99,
+          "description": "Wortmarke „PresseHelden“ mit Held-Signet, schwarz, 404 × 99 · Header, Footer, auf hellen Flächen"
+        },
+        {
+          "path": "assets/logo/pressehelden-signet-256.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/logo/pressehelden-signet-256.png",
+          "bytes": 12868,
+          "width": 256,
+          "height": 256,
+          "description": "Signet (Held mit Zeitung) in weißem Kreis · Favicon, Avatar, Karten-Pin"
+        },
+        {
+          "path": "assets/logo/pressehelden-signet-button.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/logo/pressehelden-signet-button.svg",
+          "bytes": 5222,
+          "width": 52,
+          "height": 52,
+          "description": "Signet als Linien-SVG im weißen Kreis, 52 px · Icon rechts im Gradient-CTA"
+        }
+      ]
+    },
+    "lottie": {
+      "info": "Original-Lotties, Bilder eingebettet, 25 fps",
+      "files": [
+        {
+          "path": "assets/lottie/L1-desktop-V02.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L1-desktop-V02.json",
+          "bytes": 262663,
+          "width": 610,
+          "height": 500,
+          "fps": 25,
+          "frames": 101,
+          "seconds": 4.04,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L1-desktop-V02.webp",
+          "description": "610 × 500 · 4,0 s · Google-SERP: „Ihr Unternehmen“ steigt über „Ihr Konkurrent“, Pokal wird orange · Kennzahlen/SERP · beim Erreichen des Viewports, 1×"
+        },
+        {
+          "path": "assets/lottie/L10-desktop-V05.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L10-desktop-V05.json",
+          "bytes": 270214,
+          "width": 431,
+          "height": 250,
+          "fps": 25,
+          "frames": 151,
+          "seconds": 6.04,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L10-desktop-V05.webp",
+          "description": "431 × 250 · 6,0 s · „Ihr Fahrplan“: Checkliste + Verzweigung, „+28 % Conversion“ · 4 Schritte, Karte 01 · per Skript"
+        },
+        {
+          "path": "assets/lottie/L11-desktop-V04.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L11-desktop-V04.json",
+          "bytes": 208628,
+          "width": 433,
+          "height": 252,
+          "fps": 25,
+          "frames": 151,
+          "seconds": 6.04,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L11-desktop-V04.webp",
+          "description": "433 × 252 · 6,0 s · „Sichtbarkeit wächst“: +156 % Erwähnungen, +87 % Traffic, Kurve · 4 Schritte, Karte 04 · per Skript"
+        },
+        {
+          "path": "assets/lottie/L2-desktop-V01.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L2-desktop-V01.json",
+          "bytes": 7616,
+          "width": 1140,
+          "height": 40,
+          "fps": 25,
+          "frames": 76,
+          "seconds": 3.04,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L2-desktop-V01.webp",
+          "description": "1140 × 40 · 3,0 s · Fortschrittslinie mit 4 Punkten · Ziel-Tabs · scrollgebunden"
+        },
+        {
+          "path": "assets/lottie/L3-desktop-V01.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L3-desktop-V01.json",
+          "bytes": 195423,
+          "width": 709,
+          "height": 435,
+          "fps": 25,
+          "frames": 151,
+          "seconds": 6.04,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L3-desktop-V01.webp",
+          "description": "709 × 435 · 6,0 s · Chart: Konkurrenz-Kurve (blau) zieht davon, „Ihr Unternehmen“ (rot) flach · „Warum kostet“ · Viewport, 1×"
+        },
+        {
+          "path": "assets/lottie/L4-desktop-V01.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L4-desktop-V01.json",
+          "bytes": 51930,
+          "width": 87,
+          "height": 90,
+          "fps": 25,
+          "frames": 113,
+          "seconds": 4.52,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L4-desktop-V01.webp",
+          "description": "87 × 90 · 4,5 s · Tacho, Nadel schlägt nach rechts aus · „Aufwand: Minimal“-Foto · Viewport, 1×"
+        },
+        {
+          "path": "assets/lottie/L8-desktop-V04.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L8-desktop-V04.json",
+          "bytes": 495655,
+          "width": 430,
+          "height": 180,
+          "fps": 25,
+          "frames": 275,
+          "seconds": 11,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L8-desktop-V04.webp",
+          "description": "430 × 180 · 11 s · Google-Suchfeld, Tipp-Effekt „Bester Solarteur Frankfurt“ · „Fragen Sie den Experten“ · Viewport, Loop"
+        },
+        {
+          "path": "assets/lottie/L9-desktop-V03.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/L9-desktop-V03.json",
+          "bytes": 86239,
+          "width": 431,
+          "height": 180,
+          "fps": 25,
+          "frames": 275,
+          "seconds": 11,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L9-desktop-V03.webp",
+          "description": "431 × 180 · 11 s · ChatGPT-Eingabe, Tipp-Effekt „Nenne mir den besten Immobilienmakler …“ · „Fragen Sie den Experten“ · Viewport, Loop"
+        },
+        {
+          "path": "assets/lottie/lottie-meta.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/lottie-meta.json",
+          "bytes": 14054,
+          "description": "Technische Daten aller Lotties (Format, fps, Frames, Bilder)"
+        },
+        {
+          "path": "assets/lottie/mobile-lottie-cropped.json",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/mobile-lottie-cropped.json",
+          "bytes": 1708306,
+          "width": 1359,
+          "height": 800,
+          "fps": 25,
+          "frames": 151,
+          "seconds": 6.04,
+          "poster": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/mobile-lottie-cropped.webp",
+          "description": "1359 × 800 · 6,0 s · Phone mit Artikel + 4 Dashboard-Karten (Score 82/100, Ranking, Berater, KI-Sichtbarkeit) · Potenzialanalyse-CTA · Viewport, 1×"
+        }
+      ]
+    },
+    "lottie/js": {
+      "info": "Dieselben Lotties als JS (window.PH_LOTTIE), nur für file://",
+      "files": [
+        {
+          "path": "assets/lottie/js/L1-desktop-V02.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L1-desktop-V02.js",
+          "bytes": 262723,
+          "description": "610 × 500 · 4,0 s · Google-SERP: „Ihr Unternehmen“ steigt über „Ihr Konkurrent“, Pokal wird orange · Kennzahlen/SERP · beim Erreichen des Viewports, 1×"
+        },
+        {
+          "path": "assets/lottie/js/L10-desktop-V05.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L10-desktop-V05.js",
+          "bytes": 270275,
+          "description": "431 × 250 · 6,0 s · „Ihr Fahrplan“: Checkliste + Verzweigung, „+28 % Conversion“ · 4 Schritte, Karte 01 · per Skript"
+        },
+        {
+          "path": "assets/lottie/js/L11-desktop-V04.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L11-desktop-V04.js",
+          "bytes": 208689,
+          "description": "433 × 252 · 6,0 s · „Sichtbarkeit wächst“: +156 % Erwähnungen, +87 % Traffic, Kurve · 4 Schritte, Karte 04 · per Skript"
+        },
+        {
+          "path": "assets/lottie/js/L2-desktop-V01.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L2-desktop-V01.js",
+          "bytes": 7676,
+          "description": "1140 × 40 · 3,0 s · Fortschrittslinie mit 4 Punkten · Ziel-Tabs · scrollgebunden"
+        },
+        {
+          "path": "assets/lottie/js/L3-desktop-V01.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L3-desktop-V01.js",
+          "bytes": 195483,
+          "description": "709 × 435 · 6,0 s · Chart: Konkurrenz-Kurve (blau) zieht davon, „Ihr Unternehmen“ (rot) flach · „Warum kostet“ · Viewport, 1×"
+        },
+        {
+          "path": "assets/lottie/js/L4-desktop-V01.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L4-desktop-V01.js",
+          "bytes": 51990,
+          "description": "87 × 90 · 4,5 s · Tacho, Nadel schlägt nach rechts aus · „Aufwand: Minimal“-Foto · Viewport, 1×"
+        },
+        {
+          "path": "assets/lottie/js/L8-desktop-V04.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L8-desktop-V04.js",
+          "bytes": 495715,
+          "description": "430 × 180 · 11 s · Google-Suchfeld, Tipp-Effekt „Bester Solarteur Frankfurt“ · „Fragen Sie den Experten“ · Viewport, Loop"
+        },
+        {
+          "path": "assets/lottie/js/L9-desktop-V03.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/L9-desktop-V03.js",
+          "bytes": 86299,
+          "description": "431 × 180 · 11 s · ChatGPT-Eingabe, Tipp-Effekt „Nenne mir den besten Immobilienmakler …“ · „Fragen Sie den Experten“ · Viewport, Loop"
+        },
+        {
+          "path": "assets/lottie/js/mobile-lottie-cropped.js",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/js/mobile-lottie-cropped.js",
+          "bytes": 1708373,
+          "description": "1359 × 800 · 6,0 s · Phone mit Artikel + 4 Dashboard-Karten (Score 82/100, Ranking, Berater, KI-Sichtbarkeit) · Potenzialanalyse-CTA · Viewport, 1×"
+        }
+      ]
+    },
+    "lottie/posters": {
+      "info": "Endframe jeder Lottie als Poster",
+      "files": [
+        {
+          "path": "assets/lottie/posters/L1-desktop-V02.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L1-desktop-V02.webp",
+          "bytes": 11138,
+          "width": 610,
+          "height": 500,
+          "description": "610 × 500 · 4,0 s · Google-SERP: „Ihr Unternehmen“ steigt über „Ihr Konkurrent“, Pokal wird orange · Kennzahlen/SERP · beim Erreichen des Viewports, 1×"
+        },
+        {
+          "path": "assets/lottie/posters/L10-desktop-V05.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L10-desktop-V05.webp",
+          "bytes": 6156,
+          "width": 431,
+          "height": 250,
+          "description": "431 × 250 · 6,0 s · „Ihr Fahrplan“: Checkliste + Verzweigung, „+28 % Conversion“ · 4 Schritte, Karte 01 · per Skript"
+        },
+        {
+          "path": "assets/lottie/posters/L11-desktop-V04.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L11-desktop-V04.webp",
+          "bytes": 6180,
+          "width": 433,
+          "height": 252,
+          "description": "433 × 252 · 6,0 s · „Sichtbarkeit wächst“: +156 % Erwähnungen, +87 % Traffic, Kurve · 4 Schritte, Karte 04 · per Skript"
+        },
+        {
+          "path": "assets/lottie/posters/L2-desktop-V01.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L2-desktop-V01.webp",
+          "bytes": 682,
+          "width": 1000,
+          "height": 35,
+          "description": "1140 × 40 · 3,0 s · Fortschrittslinie mit 4 Punkten · Ziel-Tabs · scrollgebunden"
+        },
+        {
+          "path": "assets/lottie/posters/L3-desktop-V01.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L3-desktop-V01.webp",
+          "bytes": 13144,
+          "width": 709,
+          "height": 435,
+          "description": "709 × 435 · 6,0 s · Chart: Konkurrenz-Kurve (blau) zieht davon, „Ihr Unternehmen“ (rot) flach · „Warum kostet“ · Viewport, 1×"
+        },
+        {
+          "path": "assets/lottie/posters/L4-desktop-V01.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L4-desktop-V01.webp",
+          "bytes": 416,
+          "width": 87,
+          "height": 90,
+          "description": "87 × 90 · 4,5 s · Tacho, Nadel schlägt nach rechts aus · „Aufwand: Minimal“-Foto · Viewport, 1×"
+        },
+        {
+          "path": "assets/lottie/posters/L8-desktop-V04.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L8-desktop-V04.webp",
+          "bytes": 3030,
+          "width": 430,
+          "height": 180,
+          "description": "430 × 180 · 11 s · Google-Suchfeld, Tipp-Effekt „Bester Solarteur Frankfurt“ · „Fragen Sie den Experten“ · Viewport, Loop"
+        },
+        {
+          "path": "assets/lottie/posters/L9-desktop-V03.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/L9-desktop-V03.webp",
+          "bytes": 2878,
+          "width": 431,
+          "height": 180,
+          "description": "431 × 180 · 11 s · ChatGPT-Eingabe, Tipp-Effekt „Nenne mir den besten Immobilienmakler …“ · „Fragen Sie den Experten“ · Viewport, Loop"
+        },
+        {
+          "path": "assets/lottie/posters/mobile-lottie-cropped.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/lottie/posters/mobile-lottie-cropped.webp",
+          "bytes": 22834,
+          "width": 1000,
+          "height": 589,
+          "description": "1359 × 800 · 6,0 s · Phone mit Artikel + 4 Dashboard-Karten (Score 82/100, Ranking, Berater, KI-Sichtbarkeit) · Potenzialanalyse-CTA · Viewport, 1×"
+        }
+      ]
+    },
+    "medienlogos": {
+      "info": "Publisher-Logos für die Marquee „Bekannt aus“",
+      "files": [
+        {
+          "path": "assets/medienlogos/berliner-morgenpost.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/berliner-morgenpost.webp",
+          "bytes": 16434,
+          "width": 735,
+          "height": 96,
+          "description": "Berliner Morgenpost"
+        },
+        {
+          "path": "assets/medienlogos/business-insider.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/business-insider.webp",
+          "bytes": 9246,
+          "width": 1092,
+          "height": 96,
+          "description": "Business Insider"
+        },
+        {
+          "path": "assets/medienlogos/forbes.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/forbes.webp",
+          "bytes": 2478,
+          "width": 247,
+          "height": 96,
+          "description": "Forbes (weiß auf Schwarz)"
+        },
+        {
+          "path": "assets/medienlogos/frankfurter-neue-presse.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/frankfurter-neue-presse.webp",
+          "bytes": 6294,
+          "width": 379,
+          "height": 96,
+          "description": "Frankfurter Neue Presse"
+        },
+        {
+          "path": "assets/medienlogos/frankfurter-rundschau.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/frankfurter-rundschau.webp",
+          "bytes": 9226,
+          "width": 739,
+          "height": 96,
+          "description": "Frankfurter Rundschau"
+        },
+        {
+          "path": "assets/medienlogos/hamburger-abendblatt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/hamburger-abendblatt.webp",
+          "bytes": 31654,
+          "width": 921,
+          "height": 96,
+          "description": "Hamburger Abendblatt"
+        },
+        {
+          "path": "assets/medienlogos/hna.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/hna.webp",
+          "bytes": 3116,
+          "width": 234,
+          "height": 96,
+          "description": "HNA (Hessische/Niedersächsische Allgemeine)"
+        },
+        {
+          "path": "assets/medienlogos/merkur-de.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/merkur-de.webp",
+          "bytes": 6588,
+          "width": 433,
+          "height": 96,
+          "description": "Merkur.de"
+        },
+        {
+          "path": "assets/medienlogos/ruhr-nachrichten.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/ruhr-nachrichten.webp",
+          "bytes": 8426,
+          "width": 605,
+          "height": 96,
+          "description": "Ruhr Nachrichten"
+        },
+        {
+          "path": "assets/medienlogos/saechsische-zeitung.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/saechsische-zeitung.webp",
+          "bytes": 15474,
+          "width": 881,
+          "height": 96,
+          "description": "Sächsische Zeitung"
+        },
+        {
+          "path": "assets/medienlogos/sueddeutsche-zeitung.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/sueddeutsche-zeitung.webp",
+          "bytes": 16060,
+          "width": 821,
+          "height": 96,
+          "description": "Süddeutsche Zeitung"
+        },
+        {
+          "path": "assets/medienlogos/t3n.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/t3n.webp",
+          "bytes": 3930,
+          "width": 310,
+          "height": 96,
+          "description": "t3n digital pioneers"
+        },
+        {
+          "path": "assets/medienlogos/tagesspiegel.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/tagesspiegel.webp",
+          "bytes": 17822,
+          "width": 646,
+          "height": 96,
+          "description": "Der Tagesspiegel"
+        },
+        {
+          "path": "assets/medienlogos/waz.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/waz.webp",
+          "bytes": 4280,
+          "width": 264,
+          "height": 96,
+          "description": "WAZ"
+        },
+        {
+          "path": "assets/medienlogos/welt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/medienlogos/welt.webp",
+          "bytes": 2012,
+          "width": 328,
+          "height": 96,
+          "description": "WELT (weiße Schrift auf Dunkelblau)"
+        }
+      ]
+    },
+    "phones": {
+      "info": "Fertige Phone-Mockups mit echtem Artikel und iOS-Statusleiste (Phone-Regal)",
+      "files": [
+        {
+          "path": "assets/phones/phone-1-welt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/phones/phone-1-welt.webp",
+          "bytes": 76828,
+          "width": 495,
+          "height": 800,
+          "description": "WELT · Green Drinks: Grünes Pulver im Test"
+        },
+        {
+          "path": "assets/phones/phone-2-sueddeutsche.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/phones/phone-2-sueddeutsche.webp",
+          "bytes": 60928,
+          "width": 469,
+          "height": 800,
+          "description": "SZ · Beste Haartransplantation Türkei 2026"
+        },
+        {
+          "path": "assets/phones/phone-3-forbes.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/phones/phone-3-forbes.webp",
+          "bytes": 66428,
+          "width": 468,
+          "height": 800,
+          "description": "Forbes · Der Mensch hinter der Marke DAHLER Bremen"
+        },
+        {
+          "path": "assets/phones/phone-4-t3n.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/phones/phone-4-t3n.webp",
+          "bytes": 71292,
+          "width": 467,
+          "height": 800,
+          "description": "t3n · Bester Kaffeevollautomat 2026"
+        },
+        {
+          "path": "assets/phones/phone-5-handelsblatt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/phones/phone-5-handelsblatt.webp",
+          "bytes": 55428,
+          "width": 540,
+          "height": 800,
+          "description": "Handelsblatt · Immobilie verkaufen in Karlsruhe"
+        },
+        {
+          "path": "assets/phones/phone-6-merkur.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/phones/phone-6-merkur.webp",
+          "bytes": 73916,
+          "width": 441,
+          "height": 765,
+          "description": "Merkur.de · Wärmepumpe München 2026 (Querformat-Crop mit Rand)"
+        }
+      ]
+    },
+    "testimonials": {
+      "info": "Kundenbilder, Sterne, Anführungszeichen, Zitate (testimonials.md)",
+      "files": [
+        {
+          "path": "assets/testimonials/anfuehrungszeichen.svg",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/anfuehrungszeichen.svg",
+          "bytes": 639,
+          "width": 200,
+          "height": 164,
+          "description": "Großes graues Anführungszeichen (Zitat-Card unten rechts)"
+        },
+        {
+          "path": "assets/testimonials/kunde-1-marcel-arnold-rockhold.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/kunde-1-marcel-arnold-rockhold.webp",
+          "bytes": 31650,
+          "width": 650,
+          "height": 436,
+          "description": "Marcel Arnold, GF Rockhold Immobilien (mit Kollegin)"
+        },
+        {
+          "path": "assets/testimonials/kunde-2-phillipp-hirsch-dahler-bremen.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/kunde-2-phillipp-hirsch-dahler-bremen.webp",
+          "bytes": 40004,
+          "width": 650,
+          "height": 436,
+          "description": "Phillipp Hirsch, GF DAHLER Bremen"
+        },
+        {
+          "path": "assets/testimonials/kunde-3-otto-van-de-loo-halo-productions.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/kunde-3-otto-van-de-loo-halo-productions.webp",
+          "bytes": 28376,
+          "width": 650,
+          "height": 436,
+          "description": "Otto van de Loo, GF Halo Productions"
+        },
+        {
+          "path": "assets/testimonials/kunde-4-robert-aschbacher-greed-logo.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/kunde-4-robert-aschbacher-greed-logo.webp",
+          "bytes": 7220,
+          "width": 650,
+          "height": 436,
+          "description": "Robert Aschbacher, Greed (nur Logo)"
+        },
+        {
+          "path": "assets/testimonials/sterne-5.png",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/sterne-5.png",
+          "bytes": 2197,
+          "width": 563,
+          "height": 113,
+          "description": "5 orange Sterne (162 px breit im Einsatz)"
+        },
+        {
+          "path": "assets/testimonials/sterne-5.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/sterne-5.webp",
+          "bytes": 4750,
+          "width": 563,
+          "height": 113,
+          "description": "5 orange Sterne (162 px breit im Einsatz)"
+        },
+        {
+          "path": "assets/testimonials/testimonials.md",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/testimonials/testimonials.md",
+          "bytes": 4979,
+          "description": "Wortgetreue Kundenzitate, Namen, Rollen, Ergebnis-Claims, Google-Bewertungsstand"
+        }
+      ]
+    },
+    "visuals": {
+      "info": "Geräte-Kompositionen und Karten",
+      "files": [
+        {
+          "path": "assets/visuals/hamburg-karte-pin-hoch.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/hamburg-karte-pin-hoch.webp",
+          "bytes": 102602,
+          "width": 1038,
+          "height": 1296,
+          "description": "Graue Hamburg-Karte mit Signet-Pin, Hochformat · Standort-Section"
+        },
+        {
+          "path": "assets/visuals/hamburg-karte-pin.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/hamburg-karte-pin.webp",
+          "bytes": 110924,
+          "width": 1600,
+          "height": 1092,
+          "description": "Graue Hamburg-Karte mit Signet-Pin · Standort-Section"
+        },
+        {
+          "path": "assets/visuals/hand-phone-hamburger-abendblatt.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/hand-phone-hamburger-abendblatt.webp",
+          "bytes": 88192,
+          "width": 1362,
+          "height": 818,
+          "description": "Hand hält Phone mit Abendblatt-Artikel, Badge „KI-BEARBEITET“ · „Warum kostet Sie das Kunden?“"
+        },
+        {
+          "path": "assets/visuals/laptop-chatgpt-suche.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/laptop-chatgpt-suche.webp",
+          "bytes": 84944,
+          "width": 1362,
+          "height": 818,
+          "description": "Laptop mit ChatGPT-Eingabe, Badge „KI-BEARBEITET“ · Wechselbild „Sie fragen ChatGPT“"
+        },
+        {
+          "path": "assets/visuals/laptop-google-suche.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/laptop-google-suche.webp",
+          "bytes": 81860,
+          "width": 1362,
+          "height": 818,
+          "description": "Laptop mit Google-Suche, Badge „KI-BEARBEITET“ · Wechselbild „Sie googeln.“"
+        },
+        {
+          "path": "assets/visuals/monitor-mockup-artikel.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/monitor-mockup-artikel.webp",
+          "bytes": 155546,
+          "width": 1600,
+          "height": 1383,
+          "description": "Studio-Display mit Artikel „KI verändert den Mittelstand“, Autoren-Karte · „Das macht PresseHelden anders“"
+        },
+        {
+          "path": "assets/visuals/zeitungen-tablet-phone-komposition.webp",
+          "url": "https://dxnielleadpages.github.io/pressehelden-assets/assets/visuals/zeitungen-tablet-phone-komposition.webp",
+          "bytes": 49924,
+          "width": 862,
+          "height": 356,
+          "description": "Zeitungen, Tablet, Phone, dunkler Grund · Glas-Card „Medien und Publisher“"
+        }
+      ]
+    }
+  }
+}

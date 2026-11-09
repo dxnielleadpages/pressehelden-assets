@@ -1,0 +1,788 @@
+[
+  {
+    "file": "lp10843-pressehelden-gmbh-L1-desktop-V02.json",
+    "w": 610,
+    "h": 500,
+    "fr": 25,
+    "ip": 0,
+    "op": 101,
+    "seconds": 4.04,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 2218,
+        "h": 515,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 2215,
+        "h": 511,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 2215,
+        "h": 511,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 2542,
+        "h": 2078,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L1 2560"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L10-desktop-V05.json",
+    "w": 431,
+    "h": 250,
+    "fr": 25,
+    "ip": 0,
+    "op": 151,
+    "seconds": 6.04,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 131,
+        "h": 131,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 261,
+        "h": 261,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 44,
+        "h": 44,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 44,
+        "h": 44,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_4",
+        "w": 44,
+        "h": 44,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_5",
+        "w": 44,
+        "h": 44,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_6",
+        "w": 44,
+        "h": 44,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_7",
+        "w": 44,
+        "h": 44,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_8",
+        "w": 178,
+        "h": 157,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_9",
+        "w": 191,
+        "h": 5,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_10",
+        "w": 352,
+        "h": 269,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_11",
+        "w": 205,
+        "h": 282,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_12",
+        "w": 449,
+        "h": 46,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_13",
+        "w": 1783,
+        "h": 990,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_14",
+        "w": 1872,
+        "h": 1085,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L10"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L11-desktop-V04.json",
+    "w": 433,
+    "h": 252,
+    "fr": 25,
+    "ip": 0,
+    "op": 151,
+    "seconds": 6.04,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 243,
+        "h": 243,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 1703,
+        "h": 501,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 247,
+        "h": 62,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 205,
+        "h": 62,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_4",
+        "w": 1873,
+        "h": 462,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_5",
+        "w": 1874,
+        "h": 1092,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L11 2560"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L2-desktop-V01.json",
+    "w": 1140,
+    "h": 40,
+    "fr": 25,
+    "ip": 0,
+    "op": 76,
+    "seconds": 3.04,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 1109,
+        "h": 3,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 23,
+        "h": 23,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 23,
+        "h": 23,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 23,
+        "h": 23,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_4",
+        "w": 23,
+        "h": 23,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_5",
+        "w": 1119,
+        "h": 12,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "lp10843 pressehelden gmbh L2"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L3-desktop-V01.json",
+    "w": 709,
+    "h": 435,
+    "fr": 25,
+    "ip": 0,
+    "op": 151,
+    "seconds": 6.04,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 103,
+        "h": 61,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 103,
+        "h": 63,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 732,
+        "h": 173,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 461,
+        "h": 43,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_4",
+        "w": 313,
+        "h": 43,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_5",
+        "w": 94,
+        "h": 94,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_6",
+        "w": 1807,
+        "h": 340,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_7",
+        "w": 94,
+        "h": 94,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_8",
+        "w": 1807,
+        "h": 904,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_9",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_10",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_11",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_12",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_13",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_14",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_15",
+        "w": 2427,
+        "h": 4,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_16",
+        "w": 356,
+        "h": 49,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_17",
+        "w": 327,
+        "h": 49,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_18",
+        "w": 206,
+        "h": 48,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_19",
+        "w": 2443,
+        "h": 1468,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_20",
+        "w": 2547,
+        "h": 1565,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L32560"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L4-desktop-V01.json",
+    "w": 87,
+    "h": 90,
+    "fr": 25,
+    "ip": 0,
+    "op": 113,
+    "seconds": 4.52,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 215,
+        "h": 284,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 496,
+        "h": 248,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 496,
+        "h": 248,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 710,
+        "h": 735,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L4 2560"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L8-desktop-V04.json",
+    "w": 430,
+    "h": 180,
+    "fr": 25,
+    "ip": 0,
+    "op": 275,
+    "seconds": 11,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 620,
+        "h": 47,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 1920,
+        "h": 1038,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L8 2560"
+    ]
+  },
+  {
+    "file": "lp10843-pressehelden-gmbh-L9-desktop-V03.json",
+    "w": 431,
+    "h": 180,
+    "fr": 25,
+    "ip": 0,
+    "op": 275,
+    "seconds": 11,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 485,
+        "h": 54,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 1512,
+        "h": 631,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L9 2560"
+    ]
+  },
+  {
+    "file": "mobile-lottie-cropped.json",
+    "w": 1359,
+    "h": 800,
+    "fr": 25,
+    "ip": 0,
+    "op": 151,
+    "seconds": 6.04,
+    "layers": 1,
+    "images": [
+      {
+        "id": "image_0",
+        "w": 72,
+        "h": 30,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_1",
+        "w": 16,
+        "h": 16,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_2",
+        "w": 50,
+        "h": 15,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_3",
+        "w": 104,
+        "h": 38,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_4",
+        "w": 188,
+        "h": 17,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_5",
+        "w": 214,
+        "h": 26,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_6",
+        "w": 351,
+        "h": 12,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_7",
+        "w": 351,
+        "h": 12,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_8",
+        "w": 463,
+        "h": 339,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_9",
+        "w": 337,
+        "h": 247,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_10",
+        "w": 31,
+        "h": 31,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_11",
+        "w": 74,
+        "h": 74,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_12",
+        "w": 18,
+        "h": 3,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_13",
+        "w": 18,
+        "h": 3,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_14",
+        "w": 39,
+        "h": 37,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_15",
+        "w": 39,
+        "h": 37,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_16",
+        "w": 74,
+        "h": 74,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_17",
+        "w": 105,
+        "h": 16,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_18",
+        "w": 202,
+        "h": 27,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_19",
+        "w": 597,
+        "h": 189,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_20",
+        "w": 54,
+        "h": 39,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_21",
+        "w": 104,
+        "h": 38,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_22",
+        "w": 253,
+        "h": 27,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_23",
+        "w": 291,
+        "h": 21,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_24",
+        "w": 76,
+        "h": 17,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_25",
+        "w": 463,
+        "h": 288,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_26",
+        "w": 351,
+        "h": 12,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_27",
+        "w": 351,
+        "h": 12,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_28",
+        "w": 51,
+        "h": 16,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_29",
+        "w": 190,
+        "h": 21,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_30",
+        "w": 463,
+        "h": 226,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_31",
+        "w": 1206,
+        "h": 708,
+        "embedded": true,
+        "p": "(base64)"
+      },
+      {
+        "id": "image_32",
+        "w": 2046,
+        "h": 1535,
+        "embedded": true,
+        "p": "(base64)"
+      }
+    ],
+    "layerNames": [
+      "L5 2560"
+    ]
+  }
+]

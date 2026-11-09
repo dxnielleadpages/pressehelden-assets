@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PresseHelden · Designsystem v0.1 · Übersicht</title>
+  <link rel="preload" href="assets/fonts/geist-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="ph.css" />
+  <link rel="stylesheet" href="doc.css" />
+  <style>
+    .ix-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--s-4); }
+    .ix-card { position: relative; grid-column: span 4; display: grid; gap: 14px; align-content: start; padding: 28px; min-height: 230px; border-radius: var(--r-card); background: var(--paper); box-shadow: var(--sh-soft); transition: transform var(--d-fast) var(--e-enter); }
+    .ix-card:hover { transform: translateY(-3px); }
+    .ix-card--wide { grid-column: span 8; }
+    .ix-card h2 { font: 600 24px/1.2 var(--font-display); letter-spacing: -.02em; }
+    .ix-card h2 a { color: var(--text); text-decoration: none; }
+    .ix-card h2 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+    .ix-card h2 mark { background: var(--band); color: inherit; font-weight: 700; padding: 0 .14em; }
+    .ix-card p { font-size: 15px; line-height: 1.6; color: var(--text-2); }
+    .ix-card code { font: 12px ui-monospace, Menlo, monospace; color: var(--muted); }
+    .ix-card .ph-eyebrow { font-size: 12px; }
+    .ix-card--wide { background: var(--wash-up), var(--paper); }
+    .ix-note { margin-top: var(--s-6); padding: 20px 24px; border-radius: var(--r-card); background: rgba(255,255,255,.6); display: grid; gap: 6px; font-size: 15px; }
+    .ix-note b { font-weight: 700; }
+    .ix-note code { font: 12.5px ui-monospace, Menlo, monospace; }
+    @media (max-width: 980px) { .ix-card, .ix-card--wide { grid-column: span 6; } }
+    @media (max-width: 640px) { .ix-card, .ix-card--wide { grid-column: 1 / -1; } }
+  </style>
+</head>
+<body class="ph-page">
+
+  <header class="doc-top">
+    <div class="doc-top__bar">
+      <img src="assets/logo/pressehelden-logo-quer.webp" alt="PresseHelden" />
+      <nav aria-label="Dokumentation">
+        <a href="index.html" aria-current="page">Übersicht</a>
+        <a href="components.html">Komponenten</a>
+        <a href="visuals.html">Visuals &amp; Motion</a>
+        <a href="in-action.html">In Action</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="ph-shell ph-shell--wash-up" style="margin-top:var(--s-6)">
+      <div class="ph-container">
+        <p class="ph-eyebrow">Designsystem v0.1 · Entwurf</p>
+        <h1 class="ph-display" style="max-width:15em"><mark>Sichtbarkeit und Vertrauen,</mark> <span class="ph-display__rest">als System für Landingpages.</span></h1>
+        <p class="ph-lead" style="margin-top:var(--s-6)">Grau mit feinem Linienraster, weiße Flächen mit 32-px-Schalen, Apricot-Verläufe nur nach oben oder unten, ein fettes Highlight-Band pro Headline. Dazu echte Medienartikel, Phones, Glas auf Foto und ein Motion-System im 40-ms-Raster der Original-Lotties.</p>
+      </div>
+    </section>
+
+    <section class="ph-shell ph-shell--tight">
+      <div class="ph-container">
+        <div class="ix-grid">
+          <article class="ix-card ix-card--wide">
+            <span class="ph-eyebrow">Testseite</span>
+            <h2><a href="in-action.html">Das System <mark>in Aktion</mark></a></h2>
+            <p>Neue Beispiel-Landingpage: Hero mit Phone-Regal, Medienlogo-Marquee, Kennzahlen, Problem auf Foto, SERP-Vergleich, Kanal-Trio, Leistungen, 4 Schritte, Testimonials, Potenzialanalyse, FAQ, Footer.</p>
+            <code>validation/in-action.html</code>
+          </article>
+          <article class="ix-card">
+            <span class="ph-eyebrow">Katalog</span>
+            <h2><a href="components.html"><mark>Komponenten</mark></a></h2>
+            <p>Alle 20 Sections der Startseite in Originaltext, mit Motion, plus jede als echter 390-px-Rahmen.</p>
+            <code>validation/components.html</code>
+          </article>
+          <article class="ix-card">
+            <span class="ph-eyebrow">Motion</span>
+            <h2><a href="visuals.html">Visuals <mark>&amp; Motion</mark></a></h2>
+            <p>9 Easings, Hero-Regal, 7 befüllbare <code>.v-*</code>-Visuals, Kompositionen, alle 9 Original-Lotties, Marquee und Spalten.</p>
+            <code>validation/visuals.html</code>
+          </article>
+          <article class="ix-card">
+            <span class="ph-eyebrow">Tokens</span>
+            <h2><a href="docs/cheatsheet.html"><mark>Cheatsheet</mark></a></h2>
+            <p>Farben, Verläufe, Typo, Abstände, Radien, Schatten, Buttons, Motion-Tabelle und Regeln auf einer Seite.</p>
+            <code>drafts/cheatsheet.html</code>
+          </article>
+          <article class="ix-card">
+            <span class="ph-eyebrow">Regeln</span>
+            <h2><a href="docs/STYLEGUIDE.md"><mark>Styleguide</mark></a></h2>
+            <p>Brand Rules, Tokens, Rhythmus, Komponenten-API, Visual- und Motion-System, Voice, Anti-Patterns.</p>
+            <code>drafts/STYLEGUIDE.md</code>
+          </article>
+          <article class="ix-card">
+            <span class="ph-eyebrow">v0</span>
+            <h2><a href="docs/v0.md">Anweisung für <mark>v0</mark></a></h2>
+            <p>Stack, Schriften, <code>globals.css</code> mit Tokens, Komponenten- und Motion-Regeln, Asset-Pfade, Verbote.</p>
+            <code>drafts/v0.md</code>
+          </article>
+          <article class="ix-card">
+            <span class="ph-eyebrow">Assets</span>
+            <h2><a href="original/INDEX.md"><mark>Asset-Index</mark></a></h2>
+            <p>Logo, 15 Medienlogos, 22 Kundenlogos, 6 Phones, 12 Artikel, Testimonials mit Kundenbildern, Fotos, Linien-Icons, Lotties.</p>
+            <code>intake/assets/INDEX.md</code>
+          </article>
+        </div>
+
+        <div class="ix-note">
+          <b>Status: v0.1 Entwurf, 09.11.2026, wartet auf Review.</b>
+          <p>CSS-Quelle ist <code>validation/ph.css</code>, Verhalten <code>validation/ph-motion.js</code>. Offene Punkte (Nutzungsrechte Medienlogos und Lotties, fehlendes Logo Halo Productions) stehen in <code>analysis/gaps.md</code>, Prüfstand in <code>validation/VALIDATION-STATE.md</code>. <code>approved/</code> wird erst nach Freigabe befüllt.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ph-shell ph-footer ph-shell--tight">
+    <div class="ph-container ph-footer__legal" style="margin-top:0"><span>PresseHelden Designsystem · v0.1 Entwurf</span><nav><a href="components.html">Komponenten</a><a href="in-action.html">In Action</a></nav></div>
+  </footer>
+</body>
+</html>

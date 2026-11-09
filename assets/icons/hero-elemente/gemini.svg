@@ -1,0 +1,14 @@
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="21" height="21" fill="#D1D1D1"/>
+<g id="Group 2085663602">
+<g id="Group 2085663599">
+<path id="Union" d="M0 10.5C8.4 10.5 10.5 3.5 10.5 0C10.5 8.4 17.5 10.5 21 10.5C17.5 10.5 10.5 12.6 10.5 21C10.5 17.5 8.4 10.5 0 10.5Z" fill="url(#paint0_linear_80_2)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_80_2" x1="10.5" y1="0" x2="10.5" y2="21" gradientUnits="userSpaceOnUse">
+<stop stop-color="#937AEC"/>
+<stop offset="1" stop-color="#3D86FA"/>
+</linearGradient>
+</defs>
+</svg>

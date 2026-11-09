@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PresseHelden · Brand Cheatsheet</title>
+  <style>
+    @font-face { font-family: "Geist"; src: url("../assets/fonts/geist-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Geist"; src: url("../assets/fonts/geist-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+    @font-face { font-family: "Geist"; src: url("../assets/fonts/geist-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+    @font-face { font-family: "Inter"; src: url("../assets/fonts/inter-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Inter"; src: url("../assets/fonts/inter-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+    @font-face { font-family: "Inter"; src: url("../assets/fonts/inter-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+    :root {
+      --page: #EEEEEE; --paper: #FFFFFF; --text: #000; --text-2: #333; --muted: #6B6B6B;
+      --orange: #F3AD4F; --orange-light: #FFC16D; --orange-deep: #EB8700; --orange-ink: #9A5100;
+      --apricot: #FFCD8A; --band: rgba(243,173,79,.22); --halo: rgba(243,173,79,.28);
+      --loss-band: rgba(234,67,53,.22); --data-you: #EA4335; --data-rival: #608AF8;
+      --grad-cta: linear-gradient(188deg, #FFC16D 11.8%, #EB8700 78.5%);
+      --wash-up: linear-gradient(180deg, rgba(255,205,138,0) 34%, rgba(255,205,138,.3) 66%, rgba(255,205,138,.78) 91%, #FFCD8A 100%);
+      --grad-stat: linear-gradient(180deg, #8E8D8D 0%, #000 91.55%);
+      --sh-soft: 0 17px 60px rgba(0,0,0,.04); --sh-ui: 0 4px 18px rgba(0,0,0,.14);
+      --font-display: "Geist", "Inter", system-ui, sans-serif; --font-text: "Inter", "Geist", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--page); color: var(--text); font: 400 15px/1.55 var(--font-text); -webkit-font-smoothing: antialiased; padding: 32px 14px; }
+    body::before { content: ""; position: fixed; inset: 0; pointer-events: none; background: repeating-linear-gradient(90deg, rgba(255,255,255,.4) 0 1.5px, transparent 1.5px 10vw); }
+    .sheet { position: relative; max-width: 1180px; margin: 0 auto; border-radius: 32px; background: var(--wash-up); padding: 40px clamp(20px, 3vw, 48px) 56px; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 24px; background: var(--paper); border-radius: 999px; padding: 16px 28px; box-shadow: var(--sh-soft); }
+    header img { height: 30px; }
+    header span { font: 600 13px/1 var(--font-text); color: var(--muted); }
+    .intro { margin: 40px 0 32px; max-width: 760px; }
+    .intro h1 { font: 400 42px/1.24 var(--font-display); letter-spacing: -.03em; }
+    mark { background: var(--band); color: inherit; font-weight: 700; padding: .02em .14em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+    .intro p { margin-top: 16px; color: var(--text-2); font-size: 17px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .card { background: var(--paper); border-radius: 24px; padding: 24px; box-shadow: var(--sh-soft); }
+    .card.span2 { grid-column: span 2; }
+    .card.span3 { grid-column: 1 / -1; }
+    .card h2 { font: 700 12px/1 var(--font-text); letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .card h2::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 3px var(--halo); }
+    .swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .sw div { height: 56px; border-radius: 12px; box-shadow: inset 0 0 0 1px rgba(0,0,0,.06); }
+    .sw b { display: block; margin-top: 6px; font: 600 12px/1.2 var(--font-text); }
+    .sw small { font-size: 11px; color: var(--muted); }
+    .type .d { font: 700 34px/1.34 var(--font-display); }
+    .type .d span { font-weight: 400; display: block; }
+    .type .h2 { font: 400 26px/1.24 var(--font-display); letter-spacing: -.03em; margin-top: 12px; }
+    .type .stat { font: 700 52px/1 var(--font-text); letter-spacing: -.03em; background: var(--grad-stat); -webkit-background-clip: text; background-clip: text; color: transparent; margin-top: 12px; }
+    .type .eb { font: 700 12px/1 var(--font-text); letter-spacing: .12em; text-transform: uppercase; margin-top: 16px; display: flex; gap: 8px; align-items: center; }
+    .type .eb::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 3px var(--halo); }
+    .type p { margin-top: 10px; color: var(--text-2); }
+    .btn { display: inline-flex; align-items: center; gap: 16px; height: 58px; padding: 0 9px 0 28px; border-radius: 999px; background: var(--orange); color: #fff; font: 700 17px/1 var(--font-display); text-decoration: none; white-space: nowrap; }
+    .btn i { width: 40px; height: 40px; border-radius: 50%; background: #fff url("../assets/logo/pressehelden-signet-button.svg") center/120% no-repeat; }
+    .btn.ink { color: #000; }
+    .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    td, th { text-align: left; padding: 7px 8px 7px 0; border-bottom: 1px solid rgba(0,0,0,.08); vertical-align: top; }
+    th { font-weight: 700; }
+    code { font: 500 12px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; background: #F4F4F4; border-radius: 6px; padding: 1px 6px; }
+    .dont li, .do li { list-style: none; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.06); font-size: 13.5px; }
+    .dont li::before { content: "✕"; color: var(--data-you); font-weight: 700; margin-right: 8px; }
+    .do li::before { content: "✓"; color: #1B7F3B; font-weight: 700; margin-right: 8px; }
+    .shapes { display: flex; gap: 12px; flex-wrap: wrap; align-items: end; }
+    .shapes div { background: var(--paper); box-shadow: var(--sh-ui); display: grid; place-items: center; font-size: 11px; color: var(--muted); }
+    .mini { display: flex; gap: 10px; flex-wrap: wrap; }
+    .mini span { background: #F6F6F6; border-radius: 999px; padding: 6px 12px; font-size: 12px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .card.span2 { grid-column: auto; } .swatches { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <img src="../assets/logo/pressehelden-logo-quer.webp" alt="PresseHelden" />
+      <span>Design System · v1.0 · freigegeben 09.11.2026</span>
+    </header>
+
+    <div class="intro">
+      <h1><mark>Belegt statt behauptet.</mark> PresseHelden auf einer Seite.</h1>
+      <p>Grau mit Linienraster, Schalen mit Radius 32, Geist-Headlines mit einem Band, weiße Pillen und Cards, Apricot an den Kanten, echte Artikel in bewegten Visuals.</p>
+    </div>
+
+    <div class="grid">
+      <section class="card span2">
+        <h2>Farben</h2>
+        <div class="swatches">
+          <div class="sw"><div style="background:var(--page)"></div><b>page</b><small>#EEEEEE</small></div>
+          <div class="sw"><div style="background:var(--paper)"></div><b>paper</b><small>#FFFFFF</small></div>
+          <div class="sw"><div style="background:var(--text)"></div><b>text</b><small>#000000 · 18.1:1</small></div>
+          <div class="sw"><div style="background:var(--muted)"></div><b>muted</b><small>#6B6B6B · 4.59:1</small></div>
+          <div class="sw"><div style="background:var(--orange)"></div><b>orange</b><small>#F3AD4F · nie Text</small></div>
+          <div class="sw"><div style="background:var(--grad-cta)"></div><b>grad-cta</b><small>#FFC16D → #EB8700</small></div>
+          <div class="sw"><div style="background:var(--apricot)"></div><b>apricot</b><small>#FFCD8A · Waschung</small></div>
+          <div class="sw"><div style="background:var(--orange-ink)"></div><b>orange-ink</b><small>#9A5100 · Text 5.9:1</small></div>
+          <div class="sw"><div style="background:var(--band)"></div><b>band</b><small>rgba(243,173,79,.22)</small></div>
+          <div class="sw"><div style="background:var(--loss-band)"></div><b>loss-band</b><small>1× pro Seite</small></div>
+          <div class="sw"><div style="background:var(--data-you)"></div><b>data-you</b><small>#EA4335 · nur Chart</small></div>
+          <div class="sw"><div style="background:var(--data-rival)"></div><b>data-rival</b><small>#608AF8 · nur Chart</small></div>
+        </div>
+      </section>
+
+      <section class="card type">
+        <h2>Typografie</h2>
+        <div class="d">Mehr Sichtbarkeit<span>für Ihre Marke.</span></div>
+        <div class="h2">Warum <mark>kostet Sie</mark> das Kunden?</div>
+        <div class="stat">500+</div>
+        <div class="eb">Für Unternehmen im DACH-Raum</div>
+        <p>Geist 400/600/700 für Headlines, Buttons, Nav. Inter 400/600/700 für Fließtext, Kennzahlen, FAQ.</p>
+      </section>
+
+      <section class="card">
+        <h2>Button</h2>
+        <div class="row">
+          <a class="btn" href="#">Kostenfreie Potenzialanalyse <i></i></a>
+          <a class="btn ink" href="#">Kostenfreie Potenzialanalyse <i></i></a>
+        </div>
+        <p class="note">Oben: Original (Weiß, 1,93:1). Unten: <code>.ph-btn--ink</code> (Schwarz, 10,9:1). Hover <code>scale(1.04)</code>, 240 ms.</p>
+      </section>
+
+      <section class="card">
+        <h2>Radien &amp; Schatten</h2>
+        <div class="shapes">
+          <div style="width:44px;height:44px;border-radius:6px">6</div>
+          <div style="width:52px;height:52px;border-radius:12px">12</div>
+          <div style="width:60px;height:60px;border-radius:18px">18</div>
+          <div style="width:68px;height:68px;border-radius:24px">24</div>
+          <div style="width:76px;height:76px;border-radius:32px">32</div>
+          <div style="width:96px;height:40px;border-radius:999px">Pille</div>
+        </div>
+        <p class="note">Weiß auf Grau: nur <code>0 17px 60px rgba(0,0,0,.04)</code>, kein Rand. UI-Karten: 1 px <code>rgba(207,207,207,.63)</code>.</p>
+      </section>
+
+      <section class="card">
+        <h2>Motion</h2>
+        <table>
+          <tr><th>Raster</th><td>40 ms (25 fps)</td></tr>
+          <tr><th>Reveal</th><td>640 ms · 32 px · <code>.17,0,0,1</code></td></tr>
+          <tr><th>Pop</th><td>0.4 → 1 · 600 ms · <code>.333,0,.2,1</code></td></tr>
+          <tr><th>Regal</th><td>800 ms · <code>.85,0,.21,1</code> · 4 s Takt</td></tr>
+          <tr><th>Marquee</th><td>30 px/s, ziehbar</td></tr>
+          <tr><th>Stagger</th><td>120 ms (Listen) · 300 ms (Paare)</td></tr>
+        </table>
+      </section>
+
+      <section class="card span2">
+        <h2>Visuals (hybrid)</h2>
+        <table>
+          <tr><th>Lottie</th><th>Section</th><th>Befüllbarer Ersatz</th></tr>
+          <tr><td><code>L1</code> SERP-Tausch</td><td>Split / SERP</td><td><code>.v-serp</code></td></tr>
+          <tr><td><code>L3</code> Lücken-Chart</td><td>Folgen</td><td><code>.v-gap</code></td></tr>
+          <tr><td><code>L8</code> / <code>L9</code> Google / ChatGPT tippt</td><td>Kanal-Trio</td><td><code>.v-search</code> / <code>.v-prompt</code></td></tr>
+          <tr><td><code>L10</code> / <code>L11</code> Fahrplan / Sichtbarkeit</td><td>4 Schritte</td><td><code>.v-clicks</code></td></tr>
+          <tr><td><code>L2</code> Linie · <code>L4</code> Tacho · Mobile-Phone</td><td>Ziele · Aufwand · Potenzialanalyse</td><td>CSS-Linie · – · <code>.v-article-phone</code></td></tr>
+        </table>
+        <p class="note">Dazu: <code>.v-rank</code> (Platz 1 in 6 Wochen), <code>.v-card</code> (UI-Karte), Hero-Regal <code>.v-shelf</code> mit 6 echten Phone-Screens.</p>
+      </section>
+
+      <section class="card">
+        <h2>Voice</h2>
+        <div class="mini"><span>Sie</span><span>Sichtbarkeit</span><span>Vertrauen</span><span>Google</span><span>ChatGPT und Gemini</span><span>Medien</span><span>Expertenstatus</span><span>Anfragen</span></div>
+        <p class="note" style="font-size:13px;color:var(--text-2)">„Kein Vertrauen. Keine Anfragen.“ · „Warum kostet Sie das Kunden?“ · CTA immer „Kostenfreie Potenzialanalyse“.</p>
+      </section>
+
+      <section class="card span3">
+        <h2>Do &amp; Don't</h2>
+        <div class="grid" style="gap:24px">
+          <ul class="do">
+            <li>Ein <code>&lt;mark&gt;</code>-Band pro Headline, auf dem Nutzen</li>
+            <li>Jede Section als Schale, Waschung zur nächsten</li>
+            <li>Echte Artikel-Screens und Medienlogos</li>
+          </ul>
+          <ul class="do">
+            <li>Glas nur auf Fotos mit Scrim</li>
+            <li>Google-Badge verlinkt, mit Datenstand</li>
+            <li>Ein aktives Element, Pause bei Hover</li>
+          </ul>
+          <ul class="dont">
+            <li>Orange als Textfarbe, radiale Verläufe</li>
+            <li>Icons in gefüllten Kreisen, Punkte in Pills</li>
+            <li>Dunkle Sections, erfundene Medien oder Zahlen</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
