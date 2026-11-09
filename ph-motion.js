@@ -1,5 +1,5 @@
 /* =========================================================================
-   PresseHelden · ph-motion.js · v0.1 (draft, 09.11.2026)
+   PresseHelden · ph-motion.js · v1.0 (freigegeben 09.11.2026)
    Behaviour for ph.css. No dependencies; lottie-web is loaded lazily.
    Every timing is a multiple of 40 ms (25 fps grid of the original Lotties).
    ========================================================================= */
